@@ -1,5 +1,14 @@
 [
   {
+    "title": "Intérêt de la spectrométrie de masse MALDI-TOF couplée aux techniques d’apprentissage automatique « machine learning » dans l’identification des agents pathogènes",
+    "authors": [
+      "Maxime Muller"
+    ],
+    "year": 2024,
+    "abstract": "Ce travail explore l’intégration des méthodes d’apprentissage automatique avec la technologie de spectrométrie de masse MALDI-TOF pour des applications avancées dans le domaine de la microbiologique. Dans une première partie, je me suis concentré sur les aspects fondamentaux de la spectrométrie de masse MALDI-TOF. J’y présente son histoire, ainsi que ses capacités analytiques. La deuxième partie est dédiée aux notions théoriques de l’apprentissage automatique, avec un focus sur les différents types d’algorithmes (supervisés et non supervisés) et les méthodologies de validation. Enfin, la troisième partie s’appuie sur une revue de la littérature scientifique avec pour problématique : Quel est l’apport de l’apprentissage automatique au spectromètre de masse MALDI-TOF dans l’identification des résistances aux antibiotiques ? Pour répondre à cette question, j’ai consulté des études publiées entre 2016 et 2024, et en particulier celles qui portent sur le Staphylococcus aureus résistant à la méticilline, le Staphylococcus aureus résistant à la vancomycine et le Klebsiella pneumoniae résistant aux carbapénèmes. En conclusion, ce travail démontre que l’apprentissage automatique, combiné au MALDI-TOF, constitue une voie prometteuse pour optimiser les capacités d’analyse des spectres de masse.",
+    "uri": "https://dumas.ccsd.cnrs.fr/dumas-05003666v1"
+  },
+  {
     "title": "Les méthodes « apprendre à chercher » en traitement automatique des langues : un état de l'art",
     "authors": [
       "Elena Knyazeva",
@@ -9,15 +18,6 @@
     "year": 2018,
     "abstract": "L'apprentissage structuré est au fondement des méthodes modernes d'apprentissage automatique pour le traitement automatique des langues (TAL). Dans cet article, nous étudions une famille d'algorithmes d'apprentissage structuré, les algorithmes de la famille « apprendre à chercher », qui diffèrent fondamentalement des méthodes classiques telles que les champs markoviens aléatoires, et permettent donc de mettre en évidence certains des compromis de l'apprentissage structuré en TAL. Nous présentons également un panorama des applications de ces techniques en TAL, en discutant les bénéfices découlant de leur utilisation. ABSTRACT. Structured prediction lies at the heart of modern Natural language Processing (NLP). In this paper, we study a specific family of structured learning algorithms, loosely refered to as \"Learning-to-search\" algorithms. They differ in several important ways from more studied methods such as Conditional Random Fields, and their study highlights several important trade-offs of structured learning for NLP. We also present an overview of existing applications of these techniques to NLP problems and discuss their potential benefits. MOTS-CLÉS : traitement automatique des langues, apprentissage structuré, apprendre à chercher.",
     "uri": "https://hal.science/hal-02103318v1"
-  },
-  {
-    "title": "Intérêt de la spectrométrie de masse MALDI-TOF couplée aux techniques d’apprentissage automatique « machine learning » dans l’identification des agents pathogènes",
-    "authors": [
-      "Maxime Muller"
-    ],
-    "year": 2024,
-    "abstract": "Ce travail explore l’intégration des méthodes d’apprentissage automatique avec la technologie de spectrométrie de masse MALDI-TOF pour des applications avancées dans le domaine de la microbiologique. Dans une première partie, je me suis concentré sur les aspects fondamentaux de la spectrométrie de masse MALDI-TOF. J’y présente son histoire, ainsi que ses capacités analytiques. La deuxième partie est dédiée aux notions théoriques de l’apprentissage automatique, avec un focus sur les différents types d’algorithmes (supervisés et non supervisés) et les méthodologies de validation. Enfin, la troisième partie s’appuie sur une revue de la littérature scientifique avec pour problématique : Quel est l’apport de l’apprentissage automatique au spectromètre de masse MALDI-TOF dans l’identification des résistances aux antibiotiques ? Pour répondre à cette question, j’ai consulté des études publiées entre 2016 et 2024, et en particulier celles qui portent sur le Staphylococcus aureus résistant à la méticilline, le Staphylococcus aureus résistant à la vancomycine et le Klebsiella pneumoniae résistant aux carbapénèmes. En conclusion, ce travail démontre que l’apprentissage automatique, combiné au MALDI-TOF, constitue une voie prometteuse pour optimiser les capacités d’analyse des spectres de masse.",
-    "uri": "https://dumas.ccsd.cnrs.fr/dumas-05003666v1"
   },
   {
     "title": "Évaluation de systèmes apprenant tout au long de la vie",
@@ -97,5 +97,1104 @@
     "year": 2024,
     "abstract": "Les méthodes d'optimisation de modèles d'apprentissage automatique en ligne utilisent exclusivement des algorithmes génétiques. Il est raisonnable de penser que des méthodes plus efficaces encore existent en faisant un parallèle avec les autres domaines de l'optimisation. Nous montrons qu'il est possible d'utiliser l'optimisation bayésienne pour l'optimisation en ligne, avec des résultats équivalents à l'état de l'art. Cette nouvelle technique a le potentiel de créer de nouveaux optimiseurs en ligne plus efficaces.",
     "uri": "https://inria.hal.science/hal-04921796v1"
+  },
+  {
+    "title": "Adaptation de domaine multisource sur données déséquilibrées : application à l'amélioration de la sécurité des télésièges",
+    "authors": [
+      "Kevin Bascol"
+    ],
+    "year": 2019,
+    "abstract": "Bluecime a mis au point un système de vidéosurveillance à l'embarquement de télésièges qui a pour but d'améliorer la sécurité des passagers. Ce système est déjà performant, mais il n'utilise pas de techniques d'apprentissage automatique et nécessite une phase de configuration chronophage. L’apprentissage automatique est un sous-domaine de l'intelligence artificielle qui traite de l'étude et de la conception d'algorithmes pouvant apprendre et acquérir des connaissances à partir d'exemples pour une tâche donnée. Une telle tâche pourrait consister à classer les situations sûres ou dangereuses dans les télésièges à partir d'exemples d'images déjà étiquetées dans ces deux catégories, appelés exemples d’entraînement. L'algorithme d'apprentissage automatique apprend un modèle capable de prédire la catégories de nouveaux cas. Depuis 2012, il a été démontré que les modèles d'apprentissage profond sont les modèles d'apprentissage machine les mieux adaptés pour traiter les problèmes de classification d'images lorsque de nombreuses données d’entraînement sont disponibles. Dans ce contexte, cette thèse, financée par Bluecime, vise à améliorer à la fois le coût et l'efficacité du système actuel de Bluecime grâce à l'apprentissage profond.",
+    "uri": "https://theses.hal.science/tel-02497272v1"
+  },
+  {
+    "title": "Apprendre par imitation : applications à quelques problèmes d'apprentissage structuré en traitement des langues",
+    "authors": [
+      "Elena Knyazeva"
+    ],
+    "year": 2018,
+    "abstract": "L’apprentissage structuré est devenu omniprésent dans le traitement automatique des langues naturelles. De nombreuses applications qui font maintenant partie de notre vie telles que des assistants personnels, la traduction automatique, ou encore la reconnaissance vocale, reposent sur ces techniques. Les problèmes d'apprentissage structuré qu’il est nécessaire de résoudre sont de plus en plus complexes et demandent de prendre en compte de plus en plus d’informations à des niveaux linguistiques variés (morphologique, syntaxique, etc.) et reposent la question du meilleurs compromis entre la finesse de la modélisation et l’exactitude des algorithmes d’apprentissage et d’inférence. L’apprentissage par imitation propose de réaliser les procédures d’apprentissage et d’inférence de manière approchée afin de pouvoir exploiter pleinement des structures de dépendance plus riches. Cette thèse explore ce cadre d’apprentissage, en particulier l’algorithme SEARN, à la fois sur le plan théorique ainsi que ses possibilités d’application aux tâches de traitement automatique des langues, notamment aux plus complexes telles que la traduction. Concernant les aspects théoriques, nous présentons un cadre unifié pour les différentes familles d’apprentissage par imitation, qui permet de redériver de manière simple les propriétés de convergence de ces algorithmes; concernant les aspects plus appliqués, nous utilisons l’apprentissage par imitation d’une part pour explorer l’étiquetage de séquences en ordre libre; d’autre part pour étudier des stratégies de décodage en deux étapes pour la traduction automatique.",
+    "uri": "https://theses.hal.science/tel-01906278v1"
+  },
+  {
+    "title": "Définition autonome de sous-problèmes dans l'apprentissage par renforcement",
+    "authors": [
+      "Daniel Szer"
+    ],
+    "year": 2003,
+    "abstract": "Plusieurs approches ont été développées pour structurer et faciliter l'apprentissage d'une tâche en utilisant des solutions de tâches plus simples ou moins complexes. Ces approches, souvent nommées apprentissage hiérarchique ou incrémental, nécessitent normalement une décomposition de la tâche par un humain, ou bien la définition de sous-tâches pouvant être utilisées, mais il n'existe pratiquement pas d'algorithmes qui procèdent à la décomposition des problèmes complexes en des tâches plus simples de façon autonome. Nous allons proposer un moyen général permettant la définition de sous-problèmes dans le cadre de l'apprentissage par renforcement, basé sur l'observation de changements dans l'environnement. Nous allons ensuite montrer comment résoudre ces sous-problèmes et comment les solutions à ces derniers peuvent être utilisées pour résoudre le problème initial.",
+    "uri": "https://inria.hal.science/inria-00099688v1"
+  },
+  {
+    "title": "REDUCTION DE LA DIMENSION DE L'ESPACE VECTORIEL LORS DE LA PHASE DE PRETRAITEMENT POUR L'APPRENTISSAGE AUTOMATIQUE",
+    "authors": [
+      "Marc Aurele Djeguede"
+    ],
+    "year": 2019,
+    "abstract": "L'utilisation des techniques d'apprentissage automatique plus connu sous son anglicisme « Machine Learning » se repend de plus en plus. Elle s'applique à des domaines très divers et variés, du traitement de l'image au traitement du langage humain en passant par la sécurité informatique et l'industrie des jeux vidéo. L'un des principaux buts de l'application des techniques d'apprentissage automatique est la prédiction. Tout procédé d'apprentissage automatique peut être subdivisé en les étapes suivantes : le prétraitement des données, la conception du modèle et son entrainement puis l'évaluation du modèle. La phase de prétraitement encore connue sous le nom de « Pre-processing » consiste très souvent à choisir les variables les plus informatives du jeu de vecteurs entrants et à les normaliser si nécessaire. Cette technique s'appelle encore « feature selection / feature engineering ». La finalité de la sélection des variables informatives est d'éliminer les variables non essentielles qui peuvent être considérées comme du bruit par le modèle et réduire ainsi sa précision de prédiction. Plusieurs travaux de recherche ont été menés ces dernières décennies dans le but de proposer soit des algorithmes, soit des critères de sélection des variables informatives.",
+    "uri": "https://hal.science/hal-02118326v1"
+  },
+  {
+    "title": "Apprentissage discriminant de modèles neuronaux pour la traduction automatique",
+    "authors": [
+      "Quoc Khanh Do",
+      "Alexandre Allauzen",
+      "François Yvon"
+    ],
+    "year": 2016,
+    "abstract": "Les méthodes utilisées pour entraîner des réseaux de neurones en traitement des langues reposent, pour la plupart, sur l'optimisation de critères qui sont décorrélés de l'application finale. Nous proposons un nouveau cadre d'apprentissage discriminant pour l'estimation des modèles neuronaux en traduction automatique. Ce cadre s'appuie sur la définition d'un critère d'apprentissage qui prend en compte, d'une part, la métrique utilisée pour l'évaluation automatique de la traduction et, d'autre part, le processus d'intégration de ces modèles au sein des systèmes de traduction automatique. Cette méthode est comparée aux critères d'apprentissage usuels que sont le maximum de vraisemblance et l'estimation contrastive bruitée. Les expériences menées sur les tâches de traduction des séminaires Tedtalks et de textes médicaux, depuis l'anglais vers le français, montrent la pertinence d'un cadre d'apprentissage discriminant et l'importance d'une initialisation judicieuse, en particulier dans une perspective d'adaptation au domaine.",
+    "uri": "https://hal.science/hal-01620906v1"
+  },
+  {
+    "title": "Vers une approche multimodale basée sur l'apprentissage automatique et profond pour la détection d'impact pendant la chute",
+    "authors": [
+      "Tresor Y. Koffi",
+      "Youssef Mourchid",
+      "Mohammed Hindawi",
+      "Yohan Dupuis"
+    ],
+    "year": 2025,
+    "abstract": "Vers une approche multimodale basée sur l'apprentissage automatique et profond pour la détection d'impact pendant la chute",
+    "uri": "https://hal.science/hal-05131292v1"
+  },
+  {
+    "title": "Apprentissage par renforcement développemental pour la robotique autonome",
+    "authors": [
+      "Luc Sarzyniec"
+    ],
+    "year": 2010,
+    "abstract": "La problématique du stage porte sur l'apprentissage par renforcement appliqué à la robotique et plus particulièrement, l'apprentissage d'une tâche complexe divisée en plusieurs tâches plus simples.",
+    "uri": "https://inria.hal.science/inria-00546983v1"
+  },
+  {
+    "title": "Explicabilité de l'IA",
+    "authors": [
+      "Romain Giot"
+    ],
+    "year": 2023,
+    "abstract": "L'intelligence artificielle fait partie de notre quotidien. Dans les fait ce terme aujourd'hui représente une sous partie de l'intelligence artificielle : l'apprentissage automatique. Cette présentation se focalise sur les aspects apprentissage automatique et leur explicabilité. Nous verrons les bases de fonctionnement des techniques d'apprentissage automatique, les spécificités de l'apprentissage profond et leurs problèmes. Nous verrons ensuite comment l'explicabilité permet de résoudre certains d'entre eux en présentant des méthodes issues des communautés d'apprentissage automatique et des communautés de visualisation d'informations.",
+    "uri": "https://hal.science/hal-04353243v1"
+  },
+  {
+    "title": "Etiquetage morpho-syntaxique du français à base d'apprentissage supervisé",
+    "authors": [
+      "Julien Bourdaillet",
+      "Jean-Gabriel Ganascia"
+    ],
+    "year": 2005,
+    "abstract": "Nous présentons un étiqueteur morpho-syntaxique du français. Celui-ci utilise l’apprentissage supervisé à travers un modèle de Markov caché. Le modèle de langage est appris à partir d’un corpus étiqueté. Nous décrivons son fonctionnement et la méthode d’apprentissage. L’étiqueteur atteint un score de précision de 89 % avec un jeu d’étiquettes très riche. Nous présentons ensuite des résultats détaillés pour chaque classe grammaticale et étudions en particulier la reconnaissance des homographes.",
+    "uri": "https://hal.science/hal-01489192v1"
+  },
+  {
+    "title": "Apprentissage automatique pour le TAL : Préface",
+    "authors": [
+      "Isabelle Tellier"
+    ],
+    "year": 2009,
+    "abstract": "L'apprentissage automatique et le traitement automatique des langues sont de plus en plus fréquemment amenés à collaborer. Nous montrons, en parcourant 60 ans d'histoire de l'intelligence artificielle, que les deux domaines ont une origine commune mais qu'ils ont longtemps suivi des évolutions parrallèles. Leur rapprochement date d'une vingtaine d'année et s'est accompagné de mutations profondes qui les affectent tous les deux, tout en permettant de nouvelles hybridations. Les connaissances linguistiques, longtemps conçues comme autonomes ou comme horizon indépassable, sont maintenant intégrées dans les programmes d'apprentissage automatique eux-mêmes. Les articles de ce numéro en sont une très bonne illustration.",
+    "uri": "https://inria.hal.science/inria-00514535v1"
+  },
+  {
+    "title": "Apprentissage collectif par renforcement d'inspiration biologique ? Le système hamelin",
+    "authors": [
+      "Vincent Thomas"
+    ],
+    "year": 2003,
+    "abstract": "L'apprentissage par renforcement devient difficile dans le cadre multi-agent car il faut prendre en compte la multiplicité des points de vue. Cet article présente une simulation inspiré d'un phénomène de spécialisation observé dans des groupes de rats. La simulation, nommée Hamelin, modèlise un certains nombre de mécanismes permettant à une collectivité de s'organiser. Nous présentons dans cet article ces mécanismes et mettons en évidence les liens qui peuvent exister entre cette simulation et le formalisme des MDP et l'apprentissage par renforcement avec l'idée que l'inspiration biologique peut aider à découvrir de nouveaux mécanismes pour un apprentissage par renforcement collectif.",
+    "uri": "https://inria.hal.science/inria-00099583v1"
+  },
+  {
+    "title": "Apprentissage par Renforcement Développemental en Robotique Autonome",
+    "authors": [
+      "Luc Sarzyniec",
+      "Olivier Buffet",
+      "Alain Dutech"
+    ],
+    "year": 2011,
+    "abstract": "Cet article présente une approche développementale de l'apprentissage par renforcement dans un cadre de robotique autonome. Le but est de permettre au robot de tirer parti de la richesse de son environnement sans que cette richesse ne le noie sous trop d'information à traiter. L'idée principale testée ici est de faire croître les capacités perceptives et motrices de l'agent au fur et à mesure de l'apprentissage. Cette approche est combinée avec un apprentissage par renforcement classique (Q-Learning) s'appuyant sur un approximateur de fonction non-linéaire (perceptron multi-couche). Au travers d'expériences encore préliminaires, nous montrons le potentiel de cette approche.",
+    "uri": "https://inria.hal.science/inria-00633426v1"
+  },
+  {
+    "title": "Apprentissage symbolique et interprétation de gels d'électrophorèse bidimensionnelle",
+    "authors": [
+      "Pierre Nugues",
+      "Robert Whalen",
+      "Jean-Paul Haton"
+    ],
+    "year": 1989,
+    "abstract": "Nous présentons une application des techniques d'apprentissage symbolique. Cette application permet l'extraction automatique et la formalisation d'expertise biologique. Elle a pour support une méthode d'analyse de protéines- Ê: l'électrophorèse bidimensionnelle. Cette dernière produit des gels plans dont on extrait les paramètres numériques par traitement d'image. Grâce à la méthode que nous exposons, nous identifions, à partir des paramètres, des protéines qui peuvent jouer un rôle dans les transitions entre les différentes étapes de la maturation musculaire.",
+    "uri": "https://inria.hal.science/inria-00075431v1"
+  },
+  {
+    "title": "Les avis sur les restaurants à l’épreuve de l’apprentissage automatique",
+    "authors": [
+      "Hyun Jung Kang",
+      "Iris Eshkol-Taravella"
+    ],
+    "year": 2020,
+    "abstract": "Dans la fouille d’opinions, de nombreuses études portent sur l’extraction automatique des opinions positives ou négatives. Cependant les recherches ayant pour objet la fouille de suggestions et d’intentions sont moins importantes, malgré leur lien profond avec l’opinion. Cet article vise à détecter six catégories (opinion positive/mixte/négative, suggestion, intention, description) dans les avis en ligne sur les restaurants en exploitant deux méthodes : l’apprentissage de surface et l’apprentissage profond supervisés. Les performances obtenues pour chaque catégorie sont interprétées ensuite en tenant compte des spécificités du corpus traité.",
+    "uri": "https://hal.science/hal-02784774v3"
+  },
+  {
+    "title": "Classification par défaut à base de stéréotypes",
+    "authors": [
+      "Julien Velcin"
+    ],
+    "year": 2006,
+    "abstract": "Je présente dans cet article un modèle de classification automatique adapté aux données catégorielles présentant un fort taux de données manquantes. Ce modèle s’appuie sur le concept de stéréotype et cherche, en utilisant une méta-heuristique de recherche taboue, à trouver l’ensemble de stéréotypes qui caractérise le mieux l’ensemble d’apprentissage. Une première évaluation utilise des jeux de données artificiels et permet de montrer la robustesse des résultats obtenus comparativement à trois algorithmes classiques de clustering. L’application réelle considérée consiste à extraire automatiquement des stéréotypes à partir d’articles de presse. Elle montre la pertinence de notre modèle par rapport aux autres approches existantes.",
+    "uri": "https://hal.science/hal-01352072v1"
+  },
+  {
+    "title": "Classification automatique pour la compréhension de la parole : vers des systèmes semi-supervisés et auto-évolutifs",
+    "authors": [
+      "Pierre Gotab"
+    ],
+    "year": 2012,
+    "abstract": "La compréhension automatique de la parole est au confluent des deux grands domaines que sont la reconnaissance automatique de la parole et l'apprentissage automatique. Un des problèmes majeurs dans ce domaine est l'obtention d'un corpus de données conséquent afin d'obtenir des modèles statistiques performants. Les corpus de parole pour entraîner des modèles de compréhension nécessitent une intervention humaine importante, notamment dans les tâches de transcription et d'annotation sémantique. Leur coût de production est élevé et c'est la raison pour laquelle ils sont disponibles en quantité limitée.Cette thèse vise principalement à réduire ce besoin d'intervention humaine de deux façons : d'une part en réduisant la quantité de corpus annoté nécessaire à l'obtention d'un modèle grâce à des techniques d'apprentissage semi-supervisé (Self-Training, Co-Training et Active-Learning) ; et d'autre part en tirant parti des réponses de l'utilisateur du système pour améliorer le modèle de compréhension.Ce dernier point touche à un second problème rencontré par les systèmes de compréhension automatique de la parole et adressé par cette thèse : le besoin d'adapter régulièrement leurs modèles aux variations de comportement des utilisateurs ou aux modifications de l'offre de services du système",
+    "uri": "https://theses.hal.science/tel-00858980v1"
+  },
+  {
+    "title": "Apprentissage progressif pour la reconnaissance de symboles dans les documents graphiques",
+    "authors": [
+      "Sabine Barrat",
+      "Salvatore Tabbone"
+    ],
+    "year": 2006,
+    "abstract": "Les méthodes actuelles de reconnaissance de symboles donnent de bons résultats quand il s'agit de reconnaître peu de symboles différents qui sont peu bruités et souvent déconnectés du graphique. Cependant, dans le cas d'applications réelles, les méthodes sont encore mal maîtrisées quand il s'agit de discriminer dans de grandes bases entre plusieurs centaines de symboles différents, souvent complexes et bruités et encapsulés dans les couches graphiques. Dans ce contexte il est nécessaire de mettre en oeuvre des méthodes d'apprentissage. Nous présentons dans cet article une méthode d'apprentissage progressif pour la reconnaissance de symboles qui améliore son propre taux de reconnaissance au fur et à mesure que de nouveaux symboles sont reconnus dans les documents. Pour ce faire, nous proposons une nouvelle exploitation de l'analyse discriminante qui fournit des règles d'affectation à partir d'un échantillon d'apprentissage sur lequel les appartenances aux classes sont connues (apprentissage supervisé). Mais cette méthode ne se révèle efficace que si l'échantillon d'apprentissage et les données ultérieures sont observés dans les mêmes conditions. Or cette hypothèse est rarement vérifiée dans les conditions réelles. Pour pallier ce problème, nous avons adapté une approche récente d'analyse discriminante conditionnelle qui ajoute à chaque observation l'observation d'un vecteur aléatoire, représentatif des effets parasites observés dans l'analyse discriminante classique.",
+    "uri": "https://inria.hal.science/inria-00118259v1"
+  },
+  {
+    "title": "Suivis de biodiversité par la rec﻿onnaissance automatique des espèces sur photographies : perspectives et défis",
+    "authors": [
+      "Hélène Le Borgne",
+      "Christophe Bouget"
+    ],
+    "year": 2023,
+    "abstract": "La reconnaissance d’espèces basée sur des données d’images analysées par l’intelligence artificielle est de plus en plus populaire dans les suivis de biodiversité, pour faire face aux limites des méthodes plus traditionnelles et à l’émergence de considérations déontologiques préconisant le développement de pièges non destructifs (i.e. non létaux, « no kill »). Cette augmentation dans l’utilisation de nouvelles technologies peut largement s’expliquer par un besoin de gain en temps et en précision. Ce type de méthodologie est particulièrement intéressant pour les personnes qui n’ont pas l’expertise nécessaire pour distinguer de nombreuses espèces telles que les Insectes. De plus, les données photographiques sont moins susceptibles de créer un biais observateur que l’observation directe, car elles sont réutilisables et vérifiables. Dans ce document nous allons voir comment les données peuvent être acquises en milieu terrestre (i.e. méthodologies et outils de capture) et la manière dont les images sont ensuite traitées pour la classification des espèces (i.e. gestion des données et analyses). En particulier, nous avons considéré la possibilité d’automatiser les grands volumes de données collectées à l’aide de techniques d’apprentissage automatique et d’apprentissage profond afin de réaliser l’identification des espèces. Cette étude présente également les avantages et les limites de l’utilisation de ces outils pour l’identification automatique des espèces dans un contexte de suivi de biodiversité en milieu terrestre.",
+    "uri": "https://hal.inrae.fr/hal-04184907v1"
+  },
+  {
+    "title": "L'apprentissage automatique : principes et exemple d'application au domaine de la sécurité",
+    "authors": [
+      "Habib Hadj-Mabrouk"
+    ],
+    "year": 1995,
+    "abstract": "Ce papier présente une étude bibliographique des diverses méthodes, techniques et systèmes d'apprentissage automatique. Le but est de montrer dans quelle mesure les travaux effectués dans ce domaine ont pu contribuer au développement de deux outils d'apprentissage \"Clasca\" et \"Evalsca\" dédiés respectivement à la classification et à l'évaluation des scénarios contraires à la sécurité. L'objectif visé est d'alléger la tâche du spécialiste préposé à l'examen de la complétude et de la cohérence des analyses de sécurité des systèmes de transport terrestres guidés.",
+    "uri": "https://hal.science/hal-03027893v1"
+  },
+  {
+    "title": "Un modèle d'apprentissage multimodal pour un substrat distribué d'inspiration corticale",
+    "authors": [
+      "Thomas Girod"
+    ],
+    "year": 2010,
+    "abstract": "Le domaine des neurosciences computationnelles s'intéresse à la modélisation des fonctions cognitives à travers des modèles numériques bio-inspirés. Dans cette thèse, nous nous intéressons en particulier à l'apprentissage dans un contexte multimodal, c'est à dire à la formation de représentations cohérentes à partir de plusieurs modalités sensorielles et/ou motrices. Notre modèle s'inspire du cortex cérébral, lieu supposé de la fusion multimodale dans le cerveau, et le représente à une échelle mésoscopique par des colonnes corticales regroupées en cartes et des projections axoniques entre ces cartes. Pour effectuer nos simulations, nous proposons une bibliothèque simplifiant la construction et l'évaluation de modèles mésoscopiques. Notre modèle d'apprentissage se base sur le modèle BCM (Bienenstock-Cooper-Munro), qui propose un algorithme d'apprentissage non-supervisé local (une unité apprend à partir de ses entrées de manière autonome) et biologiquement plausible. Nous adaptons BCM en introduisant la notion d'apprentissage guidé, un moyen de biaiser la convergence de l'apprentissage BCM en faveur d'un stimulus choisi. Puis, nous mettons ce mécanisme à profit pour effectuer un co-apprentissage entre plusieurs modalités. Grâce au co-apprentissage, les sélectivités développées sur chaque modalité tendent à représenter le même phénomène, perçu à travers différentes modalités, élaborant ainsi une représentation multimodale cohérente dudit phénomène.",
+    "uri": "https://theses.hal.science/tel-00547941v1"
+  },
+  {
+    "title": "Introduction des techniques d'apprentissage automatique et d'acquisition des connaissances dans l'analyse de sécurité des transports guidés",
+    "authors": [
+      "Habib Hadj-Mabrouk"
+    ],
+    "year": 1994,
+    "abstract": "Cet article présente une contribution au renforcement des méthodes usuelles d'analyse de la sécurité employées dans le cadre de la certification des systèmes de transport automatisés (STA). La méthodologie d'aide à l'analyse de sécurité développée repose sur l'utilisation conjointe et complémentaire des techniques d'acquisition des connaissances et d'apprentissage automatique. ACASYA est l'environnement logiciel développé pour supporter cette méthodologie. Il est composé de deux modules principaux : \"Clasca\" et \"Evalsca\", respectivement dédiés à la classification et à l'évaluation des scénarios d'accidents. \"Clasca\" est un système d'apprentissage symbolique-numérique, inductif, incrémental, non monotone et interactif. \"Evalsca\", développé autour du système d'apprentissage de règles \"Charade\", a pour objectif de suggérer aux analystes d'éventuelles pannes non considérées par le constructeur et susceptibles de mettre en défaut la sécurité d'un nouveau STA. Par opposition aux systèmes d'aide au diagnostic, \"Acasya\" peut être perçu comme un outil d'aide à la prévention des accidents dès le stade de conception du STA.",
+    "uri": "https://hal.science/hal-03022317v1"
+  },
+  {
+    "title": "Accidents du travail dans l’UE-15 et méthodes d’apprentissage automatique »",
+    "authors": [
+      "Marie Germaine Mbome"
+    ],
+    "year": 2020,
+    "abstract": "Les méthodes d’apprentissage automatique ont été utilisées comme outil de prédiction dans de nombreux domaines, mais leur utilisation en santé et sécurité au travail est relativement nouvelle. C’est la raison pour laquelle, il serait intéressant d’utiliser ces méthodes dans la prévision des accidents du travail, sur les données d’enquêtes européennes sur les conditions de travail. L’objectif de ce travail est de tester les performances des techniques d’apprentissage automatique dans la modélisation et la prédiction d’accidents du travail. A cette fin, nous utiliserons trois modèles : (les forêts aléatoires) (RF), Support Vector Machine (SVM), modèle logistique. Nous observons que, la performance des modèles dépend des critères d’évaluation choisis",
+    "uri": "https://ube.hal.science/hal-03722488v1"
+  },
+  {
+    "title": "Procédé d’apprentissage automatique et réseau connexionniste multi-couches pour la mise en œuvre de ce procédé",
+    "authors": [
+      "Gilles Burel"
+    ],
+    "year": 1990,
+    "abstract": "Le procédé d’apprentissage automatique consistant à modifier des coefficients de pondération d'un réseau de neurones multi-couches de façon à ce que les sorties du réseau de neurones soient représentatives d’un groupe de données, est caractérisé en ce que la vitesse d’apprentissage est ajustée en début d'apprentissage en fixant une valeur de décroissance relative d'une fonction d'erreur entre les valeurs de sorties obtenues et les valeurs de sorties désirées, puis gelée en fin d'apprentissage. En outre, le procédé consiste à imposer une limite supérieure à l’affluence des modifications des coefficients de pondération dues à la présentation d’un exemple sur une quantité, appelée potentiel neuronal, correspondant à un autre exemple et à interdire les modifications des coefficients de pondération qui tendent à accroître de façon trop importante la valeur absolue du potentiel neuronal. Application au traitement de la parole et de l'image, à la robotique, au traitement du signal.",
+    "uri": "https://hal.science/hal-04049517v1"
+  },
+  {
+    "title": "Apprentissage d'une discrétisation pour construire une politique à partir d'exemples",
+    "authors": [
+      "Cédric Rose",
+      "François Charpillet"
+    ],
+    "year": 2009,
+    "abstract": "Nous présentons dans cet article une approche permettant d'apprendre une politique de contrôle à partir de l'observation d'un expert manipulant le système. Dans le cas où les actions peuvent s'avérer critiques pour le système, par exemple dans des applications médicales où bien même en robotique, l'exploration du système peut ou doit être confiée à un humain. Les actions dangereuses pourront ainsi être évitée avec la contrepartie que l'exploration restera partielle et que le nombre de trajectoires utilisables pour l'apprentissage sera limité. Nous nous intéressons ici à l'impacte du choix de l'espace d'états sur l'apprentissage de la politique dans le cas particulier d'un nombre limité d'échantillons d'apprentissage et nous proposons l'utilisation du critère de vraisemblance pour apprendre une discrétisation sous la forme d'un réseau bayésien dynamique. Ce modèle sert ensuite de support à l'apprentissage d'une politique de contrôle. L'algorithme QD-Iteration, qui est une version itérative hors ligne de QLearning, est introduit pour apprendre la politique à partir des trajectoires fournies par l'expert humain. Le problème du pendule sur le chariot est utilisé pour illustrer et tester l'approche.",
+    "uri": "https://inria.hal.science/inria-00439677v1"
+  },
+  {
+    "title": "Extraction d’information de spécialité avec un système commercial générique",
+    "authors": [
+      "Clothilde Royan",
+      "Jean-Marc Langé",
+      "Zied Abidi"
+    ],
+    "year": 2020,
+    "abstract": "Nous avons participé à la tâche 3 du Défi Fouille de texte 2020, dédiée à l’extraction d’information de spécialité, dans le but de tester notre produit commercial d’extraction d’information, Watson Knowledge Studio (WKS), face à des équipes académiques et industrielles. Outre la quantité réduite de données d’apprentissage, la nature des annotations des corpus de référence posait des problèmes d’adaptation à notre produit. Aussi avons-nous dû modifier le schéma d’annotation du corpus d’apprentissage, exécuter l’apprentissage, puis appliquer des règles aux résultats obtenus afin d’obtenir des annotations conformes au schéma initial. Nous avons également appliqué des dictionnaires de spécialité (anatomie, pathologie, etc.) pour injecter de la connaissance du domaine et renforcer les modèles d’apprentissage automatique. Au final, nos résultats lors de la phase de test se situent dans la moyenne de l’ensemble des équipes, avec des F-mesures de 0,43 pour la sous-tâche 1 et 0,63 pour la sous-tâche 2.",
+    "uri": "https://hal.science/hal-02784744v3"
+  },
+  {
+    "title": "Génération et Évaluation de Visualisations avec des techniques d'Apprentissage Automatique",
+    "authors": [
+      "Loann Giovannangeli"
+    ],
+    "year": 2023,
+    "abstract": "L'essor de l'Internet des Objets, des modèles de stockage et de traitement des données a conduit à une explosion de la quantité et de la complexité des données que nous collectons aujourd'hui. Pour mieux les comprendre et les manipuler, les experts ont recours à des visualisations de l'information. Cependant, la complexité nouvelle des données rend inefficace des techniques de visualisation utilisées jusqu'alors. Il est donc nécessaire de concevoir de nouvelles techniques de visualisation et de revoir les méthodes d'évaluation qui permettent de mesurer leur efficacité.Cette thèse présente des contributions sur deux aspects principaux du domaine de la Visualisation d'Information : la génération et l'évaluation automatique de visualisations. Pour ces deux axes, nos travaux tirent parti des techniques d'apprentissage automatique, notamment profond, qui ont démontré leurs capacités à traiter efficacement des grands volumes de données. Les cas d'applications des contributions présentées dans ce manuscrit utilisent des modèles d'apprentissage automatique pour le Dessin de Graphe par représentation Nœud-Lien, la Suppression de Chevauchements dans des nuages de points, et l'Évaluation automatique de Visualisations.",
+    "uri": "https://theses.hal.science/tel-04312123v1"
+  },
+  {
+    "title": "Un cadre conceptuel et logiciel pour la construction d'environnements d'apprentissage collaboratifs",
+    "authors": [
+      "Jacques Lonchamp"
+    ],
+    "year": 2008,
+    "abstract": "La diffusion effective de l'apprentissage collaboratif assisté par ordinateur exige de passer d'une première génération d'outils ad hoc, spécialisés et fermés à des environnements beaucoup plus génériques, ouverts et malléables. Ces environnements doivent en outre s'intégrer à des ensembles plus vastes dédiés à l'accompagnement des communautés d'intérêt et de pratique indispensables pour former et guider concrètement les enseignants concernés. Cet article définit un cadre conceptuel pour l'apprentissage collaboratif puis une architecture fonctionnelle reflétant cette vision et enfin un système qui implante cette architecture.",
+    "uri": "https://inria.hal.science/inria-00291828v1"
+  },
+  {
+    "title": "Un (petit) pas vers l’explicabilité de l’intelligence artificielle",
+    "authors": [
+      "Romain Giot"
+    ],
+    "year": 2024,
+    "abstract": "Ce manuscrit retrace une partie de mes contributions depuis mon arrivée au LaBRI en septembre 2013, ainsi que les perspectives de recherche pour les prochaines années. Les aspects principaux de ma recherche concernent : - L'analyse de données et l'apprentissage automatique. Je présente des travaux liés à l'authentification biométrique et l'attribution de caractéristiques dans les réseaux de neurones profonds. - La visualisation d'informations. Je décris des travaux sur le dessin de grands graphes et la représentation de données dans des grilles. - La symbiose entre la visualisation d'informations et l'apprentissage automatique. Je discute des travaux sur la visualisation pour l'apprentissage (en authentification biométrique, analyse de base étiquetée et visualisation pour les réseaux de neurones profonds), et l'apprentissage pour la visualisation (pour la comparaison automatique de techniques de visualisation, le dessin de graphes et la suppression de chevauchements dans les nœuds en dessin de graphe). Les perspectives de recherche se focalisent sur cette thématique.",
+    "uri": "https://theses.hal.science/tel-04463271v2"
+  },
+  {
+    "title": "Revue des principales approches de résolution du problème de déséquilibre des classes",
+    "authors": [
+      "Emmanuel Remy",
+      "Vanessa Verges",
+      "Emilie Dautreme",
+      "Bruna Martin-Cabanas"
+    ],
+    "year": 2020,
+    "abstract": "Cet article propose une revue bibliographique des principales approches de résolution du problème de déséquilibre des classes en apprentissage automatique.",
+    "uri": "https://hal.science/hal-03480661v1"
+  },
+  {
+    "title": "Contributions aux ombres et jumeaux numériques dans l’industrie : proposition d’une stratégie de couplage entre modèles de simulation et d’apprentissage automatique appliquée aux scieries",
+    "authors": [
+      "Sylvain Chabanet"
+    ],
+    "year": 2023,
+    "abstract": "Ces travaux de thèses s'inscrivent dans le projet ANR Lorraine-Intelligence Artificielle qui se veut un projet multi-disciplinaire promouvant la recherche à la fois sur l'intelligence artificielle elle-même et sur ses applications à d'autres domaines de recherche. A ce titre, cette thèse s'intéresse au développement et à l'utilisation de modèles d'apprentissage automatique comme modèles de substitution a des modèles de simulation. L'intérêt pour ce sujet de recherche est, en particulier, porté par l'engouement des milieux académiques et industriel pour le concept d'ombres et jumeaux numériques, vus comme une évolution des modèles de simulation pour une utilisation pérenne au cœur des systèmes et des processus. La contribution principale de ces travaux de thèse est la proposition d'une stratégie de couplage entre un modèle de simulation et un modèle de substitution réalisant une même tâche de prédiction de manière répétée sur un flux de données. Le modèle de simulation est supposé avoir un haut niveau de fidélité mais être trop lent ou coûteux en calcul pour être utilisé seul pour réaliser l'intégralité des prédictions requises. Le modèle de substitution est un modèle d'apprentissage automatique qui approxime le modèle de simulation. L'objectif premier de la stratégie de couplage proposée est l'utilisation efficiente des ressources en calcul limitées par l'allocation intelligente de chaque prédiction à effectuer à un des deux modèles. Cette allocation est, en particulier, inspirée de l'apprentissage actif et basée sur l'évaluation de niveaux de confiance dans les prédictions du modèle d'apprentissage automatique. Des expériences numériques sont d'abord menées sur huit jeux de données de la littérature scientifique. Une application à l'industrie du sciage est ensuite développée.",
+    "uri": "https://hal.univ-lorraine.fr/tel-04257342v1"
+  },
+  {
+    "title": "Optimisation de la Consommation d'Énergie Domestique via l'Apprentissage Automatique : Une Simulation pour Réduire les Coûts Énergétiques des Ménages",
+    "authors": [
+      "Raphael Kamdoum"
+    ],
+    "year": 2024,
+    "abstract": "Dans cet article, nous présentons une approche innovante pour optimiser la consommation d'énergie dans nos maisons en utilisant un modèle de régression linéaire basé sur l'apprentissage automatique. En générant des données synthétiques pour simuler différents scénarios de consommation, notre modèle prédictif anticipe les besoins énergétiques et ajuste automatiquement les états des appareils électroménagers afin de maintenir la consommation dans des limites optimales. La simulation, réalisée sur une période de 24 heures, a montré une réduction moyenne de la consommation d'énergie de 15%, passant de 100 kWh à 85 kWh, tout en maintenant une précision de prédiction de 92%. Ces résultats démontrent l'efficacité du système proposé pour réaliser des économies d'énergie dans menages sans compromettre le confort des occupants. Notre étude souligne le potentiel de l'apprentissage automatique pour améliorer l'efficacité énergétique dans les Foyers transformes en maisons intelligentes. Des pistes d'amélioration incluent l'exploration d'algorithmes d'apprentissage plus complexes et l'intégration de données réelles pour affiner la stratégie d'optimisation. Ce travail ouvre la voie à de futures recherches et applications pratiques dans la gestion énergétique domestique. Abstract Abstract In this article, we present an innovative approach to optimize energy consumption in our homes using a machine learning-based linear regression model. By generating synthetic data to simulate different consumption scenarios, our predictive model anticipates energy needs and automatically adjusts the states of household appliances to maintain consumption within optimal limits. The simulation, conducted over a 24-hour period, showed an average reduction in energy consumption of 15%, decreasing from 100 kWh to 85 kWh, while maintaining a prediction accuracy of 92%. These results demonstrate the efficiency of the proposed system in achieving energy savings without compromising occupants' comfort. Our study highlights the potential of machine learning to improve energy efficiency in smart homes. Areas for improvement include exploring more complex learning algorithms and integrating real data to refine the optimization strategy. This work paves the way for future research and practical applications in home energy management.",
+    "uri": "https://inria.hal.science/hal-04598401v1"
+  },
+  {
+    "title": "Apprentissage par renforcement pour la conception de Systèmes Multi-Agents Réactifs",
+    "authors": [
+      "Alain Dutech",
+      "Olivier Buffet",
+      "François Charpillet"
+    ],
+    "year": 2003,
+    "abstract": "Nous proposons une nouvelle méthodologie d'apprentissage par renforcement (AR) pour la conception de systèmes multi-agents réactifs. Bien que le cadre réaliste d'agents situés avec des perceptions locales sorte du cadre théorique de convergence des algorithmes classiques d'apprentissage par renforcement, notre méthode permet à chaque agent d'apprendre individuellement et localement son comportement. L'aspect progressif de notre algorithme qui met les agents en présence de sous-tâches de plus en plus complexes permet de dépasser les limitations classiques de l'AR dans ce contexte. Notre méthodologie, qui se veut générale, est validée en simulation sur un problème où les agents doivent se coordonner pour atteindre un but global.",
+    "uri": "https://inria.hal.science/inria-00099564v1"
+  },
+  {
+    "title": "Contextualisation, Visualisation et Evaluation en Apprentissage Non Supervisé",
+    "authors": [
+      "Laurent Candillier"
+    ],
+    "year": 2006,
+    "abstract": "Cette thèse se place dans le cadre de l'apprentissage non supervisé, qui consiste à former différents groupes à partir d'un ensemble de données, de telle manière que les données considérées comme les plus similaires soient associées au même groupe et qu'au contraire les données considérées comme différentes se retrouvent dans des groupes distincts, permettant ainsi d'extraire de la connaissance à partir de ces données. Nous proposons d'abord deux nouvelles méthodes qui prennent en compte le contexte dans lequel les groupes sont créés, c'est-à-dire le fait que les caractéristiques des différents groupes peuvent être définies sur différents sous-ensembles des attributs décrivant les données. Dans la mise en oeuvre de ces méthodes, nous avons également considéré les problématiques de la minimisation du nombre de connaissances a priori requises de la part de l'utilisateur et de la présentation des résultats sous forme compréhensible et visuelle. Nous présentons ensuite plusieurs extensions possibles de ces méthodes, dans le cadre de l'apprentissage supervisé puis face à des données semi-structurées représentées sous forme arborescente. Différentes expérimentations sur données artificielles puis sur données réelles sont présentées qui mettent en avant l'intérêt de ces méthodes. Le problème de l'évaluation des résultats produits par une méthode d'apprentissage non supervisé, et de la comparaison de telles méthodes, restant aujourd'hui un problème ouvert, nous proposons enfin une nouvelle méthode d'évaluation plus objective et quantitative que celles utilisées traditionnellement, et dont la pertinence est montrée expérimentalement.",
+    "uri": "https://theses.hal.science/tel-00617420v1"
+  },
+  {
+    "title": "Principes de base en apprentissage supervisé",
+    "authors": [
+      "Massih-Reza Amini"
+    ],
+    "year": 2020,
+    "abstract": "Ce document constitue le premier chapitre de l'ouvrage [1], présentant la théorie de l'apprentissage machine selon le cadre de [19] et qui a servi de base dans la description des algorithmes d'apprentissage décrits dans les chapitres suivants. Plus particulièrement, nous présentons ici la notion de consistance qui garantit l'apprenabilité d'une fonction de prédiction. Les définitions et les hypothèses de base de cette théorie, ainsi que le principe de la minimisation du risque empirique, sont décrits dans la section 1. L'étude de la consistance de ce principe, présentée dans la section 2, nous mène au second principe de la minimisation du risque structurel, qui stipule que l'apprentissage est un compromis entre une erreur empirique faible et une capacité de la classe de fonctions forte.",
+    "uri": "https://hal.science/hal-03049016v1"
+  },
+  {
+    "title": "Apprentissage par renforcement contraint guidé par un graphe de connaissances pour personnaliser les parcours d'apprentissage",
+    "authors": [
+      "Rania Ait Chabane",
+      "Armelle Brun",
+      "Azim Roussanaly"
+    ],
+    "year": 2025,
+    "abstract": "Ce travail présente une architecture d'apprentissage adaptatif combinant graphes de connaissances enrichis et contraintes pédagogiques dans un cadre d'apprentissage par renforcement. Le graphe est construit à partir de ressources expertes (ex. manuel scolaire) et enrichi automatiquement par un modèle de langage pour compléter les relations et inférer des contraintes. Un module de knowledge tracing estime la progression de l'apprenant vers un objectif pédagogique donné. Un agent de renforcement, entraîné en environnement simulé, recommande des activités en maximisant la progression attendue tout en respectant les contraintes. Cette approche vise à renforcer la pertinence, la diversité et l'explicabilité des parcours proposés. Une évaluation sur des jeux de données réels est prévue en travaux futurs.",
+    "uri": "https://inria.hal.science/hal-05329744v1"
+  },
+  {
+    "title": "Définitions et premières expériences en apprentissage par analogie dans les séquences",
+    "authors": [
+      "Laurent Miclet",
+      "Sabri Bayoudh",
+      "Arnaud Delhay"
+    ],
+    "year": 2005,
+    "abstract": "Cet article donne une définition de l’analogie entre séquences fondée sur la distance d’édition et donne deux algorithmes (l’un rapide et approché, l’autre plus complexe, mais optimal) pour calculer la dissemblance analogique entre quatre séquences. Cette notion et ces algorithmes sont ensuite utilisés dans une expérience d’apprentissage sur une base de données artificielle, pour montrer la résistance au bruit de ce type d’apprentissage.",
+    "uri": "https://inria.hal.science/hal-04650510v1"
+  },
+  {
+    "title": "Analyses comparatives de productions d'apprenants du français et defrancophones, à l'aide d'outils d'extraction automatique du langage",
+    "authors": [
+      "Isabelle Audras",
+      "Jean-Gabriel Ganascia"
+    ],
+    "year": 2004,
+    "abstract": "",
+    "uri": "https://hal.science/hal-01520490v1"
+  },
+  {
+    "title": "Analyses comparatives de productions d'apprenants du français et de francophones, à l'aide d'outils d'extraction automatique du langage",
+    "authors": [
+      "Isabelle Audras",
+      "Jean-Gabriel Ganascia"
+    ],
+    "year": 2004,
+    "abstract": "",
+    "uri": "https://hal.science/hal-01416561v1"
+  },
+  {
+    "title": "Modéliser l'acquisition de la syntaxe du langage naturel via l'hypothèse de la primauté du sens",
+    "authors": [
+      "Isabelle Tellier"
+    ],
+    "year": 2005,
+    "abstract": "L'objet de ce travail est la modélisation informatique de la capacité d'apprentissage de la syntaxe de leur langue naturelle par les enfants. Une synthèse des connaissances psycho-linguistiques sur la question est donc tout d'abord proposée. Le point de vue adopté pour la modélisation accorde une place privilégiée à la sémantique, qui est supposée acquise avant la syntaxe. Le Principe de compositionnalité, éventuellement adapté, est mis à contribution pour formaliser les liens entre syntaxe et sémantique, et le modèle d'apprentissage ''à la limite'' par exemples positifs de Gold est choisi pour régir les conditions de l'apprentissage. Nous présentons dans ce contexte divers résultats d'apprenabilité de classes de grammaires catégorielles à partir de divers types de données qui véhiculent des informations sémantiques. Nous montrons que, dans tous les cas, la sémantique contribue à spécifier les structures sous-jacentes aux énoncés, et à réduire ainsi l'espace de recherche des algorithmes d'apprentissage.",
+    "uri": "https://theses.hal.science/tel-00616522v1"
+  },
+  {
+    "title": "Crowdtuning : towards practical and reproducible auto-tuning via crowdsourcing and predictive analytics",
+    "authors": [
+      "Abdul Wahid Memon"
+    ],
+    "year": 2016,
+    "abstract": "Le réglage des heuristiques d'optimisation de compilateur pour de multiples cibles ou implémentations d’une même architecture est devenu complexe. De plus, ce problème est généralement traité de façon ad-hoc et consomme beaucoup de temps sans être nécessairement reproductible. Enfin, des erreurs de choix de paramétrage d’heuristiques sont fréquentes en raison du grand nombre de possibilités d’optimisation et des interactions complexes entre tous les composants matériels et logiciels. La prise en compte de multiples exigences, comme la performance, la consommation d'énergie, la taille de code, la fiabilité et le coût, peut aussi nécessiter la gestion de plusieurs solutions candidates. La compilation itérative avec profil d’exécution (profiling feedback), le réglage automatique (auto tuning) et l'apprentissage automatique ont montré un grand potentiel pour résoudre ces problèmes. Par exemple, nous les avons utilisés avec succès pour concevoir le premier compilateur qui utilise l'apprentissage pour l'optimisation automatique de code. Il s'agit du compilateur Milepost GCC, qui apprend automatiquement les meilleures optimisations pour plusieurs programmes, données et architectures en se basant sur les caractéristiques statiques et dynamiques du programme. Malheureusement, son utilisation en pratique, a été très limitée par le temps d'apprentissage très long et le manque de benchmarks et de données représentatives. De plus, les modèles d'apprentissage «boîte noire» ne pouvaient pas représenter de façon pertinente les corrélations entre les caractéristiques des programme ou architectures et les meilleures optimisations. Dans cette thèse, nous présentons une nouvelle méthodologie et un nouvel écosystème d’outils(framework) sous la nomination Collective Mind (cM). L’objectif est de permettre à la communauté de partager les différents benchmarks, données d’entrée, compilateurs, outils et autres objets tout en formalisant et facilitant la contribution participative aux boucles d’apprentissage. Une contrainte est la reproductibilité des expérimentations pour l’ensemble des utilisateurs et plateformes. Notre cadre de travail open-source et notre dépôt (repository) public permettent de rendre le réglage automatique et l'apprentissage d’optimisations praticable. De plus, cM permet à la communauté de valider les résultats, les comportements inattendus et les modèles conduisant à de mauvaises prédictions. cM permet aussi de fournir des informations utiles pour l'amélioration et la personnalisation des modules de réglage automatique et d'apprentissage ainsi que pour l'amélioration des modèles de prévision et l'identification des éléments manquants. Notre analyse et évaluation du cadre de travail proposé montre qu'il peut effectivement exposer, isoler et identifier de façon collaborative les principales caractéristiques qui contribuent à la précision de la prédiction du modèle. En même temps, la formalisation du réglage automatique et de l'apprentissage nous permettent d'appliquer en permanence des techniques standards de réduction de complexité. Ceci permet de se contenter d'un ensemble minimal d'optimisations pertinentes ainsi que de benchmarks et de données d’entrée réellement représentatifs. Nous avons publié la plupart des résultats expérimentaux, des benchmarks et des données d’entrée à l'adresse http://c-mind.org tout en validant nos techniques dans le projet EU FP6 Milepost et durant un stage de thèse HiPEAC avec STMicroelectronics.",
+    "uri": "https://theses.hal.science/tel-01395556v1"
+  },
+  {
+    "title": "Induction interactive d'extracteurs n-aires pour les documents semi-structurés",
+    "authors": [
+      "Patrick Marty"
+    ],
+    "year": 2007,
+    "abstract": "La thèse défendue dans ce mémoire est qu'il est possible de concevoir des algorithmes d'apprentissage de programmes d'extraction n-aire pour les documents semi-structurés, qui est une classe non triviale de transformation d'arbres, de manière supervisée et avec peu d'intervention de l'utilisateur. Les documents semi-structurés ont une structure arborescente. Hors peu de systèmes d'induction supervisée d'extracteurs en tirent partie. La plupart d'entre eux considèrent les documents comme une séquence mélangeant balises et contenu [51, 42, 40, 78, 65]. Plus récemment sont apparus des algorithmes d'induction exploitant pleinement la structure d'arbre des documents semi-structurés [43, 48, 81, 12, 39, 56, 36]. Cette thèse s'inscrit dans ce courant et soutient l'idée que l'exploitation de la structure des documents semi-structurés permet d'induire des extracteurs expressifs et performants. L'induction est réalisée à l'aide d'algorithmes d'apprentissage automatique de classification supervisée. Ce choix est motivé à la fois par le succès des approches d'extractions fondée sur la classification, mais surtout par la volonté d'utiliser des algorithmes d'apprentissage existants et connus. Bien que le codage de exemples d'apprentissage en attribut-valeur prenne en compte la nature arborescente des documents semi-structurés, il est générique et intègre peu de connaissance de base. Cependant toute nouvelle connaissance est facilement intégrable. Notre représentation des données est adaptative. Dans notre approche, l'extraction n-aire est réalisée de manière incrémentale au cours d'une boucle croissante sur la taille des n-uplets. Ce procédé d'extraction ne fait aucune hypothèse sur la disposition des données dans les documents. Aucun post-traitement n'est effectué : notre algorithme réalise en même temps l'extraction des composantes et leur combinaison en n-uplets. Précisons qu'un extracteur obtenu par PaF, notre système, est utilisable tel quel, comme une boite noire, avec en entrée des documents HTML ou XML, et en sortie l'ensemble des n-uplets extraits. De plus le système PaF est implémenté dans un cadre interactif qui permet l'induction à partir d'un faible nombre d'interactions. L'utilisateur fournit quelques annotations qui servent d'amorce à l'apprentissage d'un extracteur hypothèse. Ici commence une boucle d'interaction dans laquelle l'utilisateur corrige les erreurs de l'hypothèse courante et relance l'apprentissage jusqu'à l'obtention d'une hypothèse correcte. PaF permet d'apprendre des extracteurs n-aires performants à partir de peu d'exemples. Les résultats expérimentaux montrent que PaF atteint les performances des meilleurs systèmes n-aires. De plus son procédé d'extraction reste applicable et efficace même lorsque l'organisation des données dans les documents semi-structurés est complexe. L'évaluation expérimentale montre également que le cadre interactif de PaF permet de réduire l'effort d'annotation de l'utilisateur, tout en préservant la qualité des extracteurs induits.",
+    "uri": "https://theses.hal.science/tel-00613195v1"
+  },
+  {
+    "title": "Apprentissage de modèles en télémédecine",
+    "authors": [
+      "Laurent Jeanpierre",
+      "François Charpillet"
+    ],
+    "year": 2002,
+    "abstract": "L'application de modèles de diagnostic à des problèmes médicaux pose le problème de l'adaptation des paramètres de ces modèles dans des conditions difficiles. Les données médicales disponibles ne sont en effet pas toujours suffisantes, et la condition d'un patient est amenée à évoluer au cours du temps. L'apprentissage par descente de gradient visant à imiter le diagnostic d'un médecin permet de s'abstraire de ces problèmes en guidant le système vers une solution viable en un nombre restreint d'itérations.",
+    "uri": "https://inria.hal.science/inria-00100813v1"
+  },
+  {
+    "title": "Métriques d'équité en Apprentissage Automatique et droit de l'Union Europénne en matière de non-discrimination",
+    "authors": [
+      "Magali Legast",
+      "Yasaman Yousefi",
+      "Lisa Koutsoviti",
+      "Axel Legay",
+      "Christopher Schommer",
+      "Koen Vanhoof"
+    ],
+    "year": 2023,
+    "abstract": "Les modèles d'apprentissage automatique (AA) peuvent présenter des biais discriminatoires envers certains groupes sociaux. Nous étudions à quel point les techniques et définitions d'équité utilisées en AA peuvent garantir le respect du droit de l'UE en matière de non discrimination. À travers des modèles de classification entraînés avec différentes contraintes d'équité, nous évaluons l'efficacité des méthodes de correction de biais et discutons les résultats sous l'angle de l'AA et de l'informatique juridique.",
+    "uri": "https://hal.science/hal-04164322v1"
+  },
+  {
+    "title": "Les méthodes formelles sont-elles applicables à l'apprentissage automatique et à l'intelligence artificielle",
+    "authors": [
+      "Moez Krichen"
+    ],
+    "year": 2022,
+    "abstract": "Les approches formelles peuvent fournir des garanties d'exactitude strictes pour le développement de systèmes matériels et logiciels. Dans ce travail, nous examinons les méthodes formelles de pointe pour la vérification et la validation des systèmes d'apprentissage automatique en particulier. Nous fournissons d'abord un bref résumé des approches formelles existantes en général. Ensuite, nous rendons compte des méthodes formelles développées pour valider les phases de préparation et d'entraînement des données. Ensuite, nous passons en revue les méthodes formelles utilisées pour la vérification des systèmes d'apprentissage automatique. A ce niveau, nous considérons à la fois des techniques partielles et exhaustives. De plus, nous passons en revue les travaux de recherche dédiés à la vérification des machines à vecteurs de support et des ensembles d'arbres de décision. Enfin, nous proposons plusieurs orientations futures potentielles pour la vérification formelle des systèmes d'apprentissage automatique.",
+    "uri": "https://hal.science/hal-03751705v1"
+  },
+  {
+    "title": "Communication et apprentissage par renforcement pour une équipe d'agents",
+    "authors": [
+      "Daniel Szer",
+      "François Charpillet"
+    ],
+    "year": 2004,
+    "abstract": "Nous présentons un nouvel algorithme d'apprentissage par renforcement pour des systèmes multi-agents coopératifs. Le problème de contrôle est formalisé comme un processus de décision markovien que nous cherchons à résoudre de manière décentralisée. Pour cela, nous proposons une variante du Q-learning avec communication, à savoir un mécanisme de notification réciproque. Nous allons introduire le problème de coopération multi-agents et poser un critère d'optimalité pour la solution souhaitée. Nous allons ensuite présenter l'algorithme de notification réciproque, prouver sa convergence et étudier des variantes de l'algorithme qui permettent des stratégies de communication plus flexibles. Nous conclurons avec les performances de l'algorithme sur un exemple d'apprentissage précis.",
+    "uri": "https://inria.hal.science/inria-00100256v1"
+  },
+  {
+    "title": "Échantillonnage progressif guidé pour stabiliser la courbe d'apprentissage",
+    "authors": [
+      "François Portet",
+      "René Quiniou"
+    ],
+    "year": 2008,
+    "abstract": "L'un des enjeux de l'apprentissage artificiel est de pouvoir fonctionner avec des volumes de données toujours plus grands. Bien qu'il soit généralement admis que plus un ensemble d'apprentissage est large et plus les résultats sont performants, il existe des limites à la masse d'informations qu'un algorithme d'apprentissage peut manipuler. Pour résoudre ce problème, nous proposons d'améliorer la méthode d'échantillonnage progressif en guidant la construction d'un ensemble d'apprentissage réduit à partir d'un large ensemble de données. L'apprentissage à partir de l'ensemble réduit doit conduire à des performances similaires à l'apprentissage effectué avec l'ensemble complet. Le guidage de l'échantillonnage s'appuie sur une connaissance a priori qui accélère la convergence de l'algorithme. Cette approche présente trois avantages : 1) l'ensemble d'apprentissage réduit est composé des cas les plus représentatifs de l'ensemble complet; 2) la courbe d'apprentissage est stabilisée; 3) la détection de convergence est accélérée. L'application de cette méthode à des données classiques et à des données provenant d'unités de soins intensifs révèle qu'il est possible de réduire de façon significative un ensemble d'apprentissage sans diminuer la performance de l'apprentissage.",
+    "uri": "https://inria.hal.science/inria-00266536v1"
+  },
+  {
+    "title": "Apprentissage par renforcement dans un système multi-agents",
+    "authors": [
+      "Olivier Buffet"
+    ],
+    "year": 2000,
+    "abstract": "Longtemps l'Intelligence Artificielle s'est attachée à faire effectuer par un unique agent des tâches plus ou moins complexes. Les méthodes exactes, cherchant par des méthodes systématiques à résoudre un problème, sont hélas souvent inexploitables quand des contraintes de taille mémoire ou de temps-réel entrent en jeu. On se propose alors de trouver plutôt des solutions optimales ou sous-optimales, par des méthodes approchées de planification ou d'apprentissage qui permettent des convergences beaucoup plus rapides (les processus décisionnels de Markov dont il sera sujet en font partie). Mais les capacités d'un unique agent peuvent rester insuffisantes, au moins au niveau de ses moyens matériels. l'idée est que certains problèmes sont résolus non par des individus séparément, mais par des groupes d'individus. Même de simples insectes, du fait de leur organisation, peuvent ainsi effectuer des prouesses. Ce stage de DEA vise à faire une étude des travaux existants dans le domaine de l'apprentissage au sein de systèmes mono- et multi-agents. Le cadre multi-agents pose des problèmes nouveaux aux méthodes d'apprentissage par renforcement connues, les agents devant coordonner leurs actions. Le stage a été en outre l'occasion de mettre en oeuvre des algorithmes classiques sur quelques exemples simples.",
+    "uri": "https://inria.hal.science/inria-00099176v1"
+  },
+  {
+    "title": "Rapport d’avancement AMCER n°14 : Intelligence Artificielle et Apprentissage Automatique appliqués à l'exploitation, la maintenance et la sécurité ferroviaire : Apports et limites",
+    "authors": [
+      "Habib Hadj-Mabrouk"
+    ],
+    "year": 2025,
+    "abstract": "Cette étude offre un panorama non exhaustif des méthodes, algorithmes et applications de l'IA, notamment l'apprentissage automatique (ML) dans le transport ferroviaire. S'inspirant des deux directives européennes relatives au développement (Directive 2012/34/UE) et à l'interopérabilité (Directive (UE) 2016/797) du système ferroviaire, cette revue propose de classer les applications de l'IA selon 1) les « éléments structurels » du système ferroviaire (infrastructure, matériel roulant, énergie, contrôle-commande et signalisation), 2) les « éléments fonctionnels » (exploitation, maintenance et applications télématiques) et 3) les éléments à la fois « structurels et fonctionnels », afin d'identifier les approches de l'IA visant à améliorer la sécurité ferroviaire, notamment l'analyse des accidents et incidents ferroviaires à partir des rapports d'enquête. Plusieurs techniques d'IA « classiques » sont mises en oeuvre, notamment le ML (supervisé, semi-supervisé, non supervisé), l'apprentissage profond comme les réseaux de neurones artificiels (RNA), le traitement du langage naturel (NLP), le raisonnement à base de cas (CBR), etc. Cependant, le manque d'interopérabilité entre les outils d'IA « classiques » et l'inadéquation de ces approches à capitaliser, partager et réutiliser ces connaissances ont poussé les recherches vers le développement de nouvelles approches basées sur des ontologies et des graphes de connaissances. L'étude de l'ensemble des applications de l'IA montre que les étapes d'acquisition, d'analyse, de structuration, de formalisation, de modélisation, de traitement et d'interprétation des données produites par un système d’apprentissage posent un problème crucial dans le secteur du transport ferroviaire. De plus, avec des modèles complexes appelés « boîtes noires », il est difficile de comprendre comment et pourquoi les mécanismes de raisonnement internes du système d'IA influencent la solution et les prédictions. La nouvelle approche de l'IA explicable (XAI) ou de l'apprentissage automatique explicable (XML) peut apporter une réponse à ce problème, notamment lorsqu'il s'agit d'un enjeu crucial comme celui de la sécurité ferroviaire.",
+    "uri": "https://hal.science/hal-05241309v1"
+  },
+  {
+    "title": "Extraction et gestion d'informations pour la construction d'une base vidéo d'apprentissage",
+    "authors": [
+      "Alain Simac-Lejeune"
+    ],
+    "year": 2012,
+    "abstract": "Indexer une vidéo consiste à rattacher un ou plusieurs concepts à des segments de cette vidéo, un concept étant défini comme une représentation intellectuelle d'une idée abstraite. L'indexation automatique se base sur l'extraction automatique de caractéristiques fournies par un système de traitement d'images. Cependant, il est nécessaire de définir les index ou concepts. Pour cela il faut définir le lien qui existe entre ces caractéristiques et ces concepts. Ce qui sépare les caractéristiques extraites sur lesquelles se base l'indexation automatique et les concepts est appelé fossé sémantique qui est le manque de concordance entre les informations que les machines peuvent extraire depuis les documents numériques et les interprétations que les humaines en font. La définition d'un concept peut être faite automatiquement si l'on dispose d'une base d'apprentissage liée au concept. Dans ce cas, il est possible \"d'apprendre\" le concept de manière statistique. Mais la construction de cette base d'apprentissage nécessite de faire intervenir un utilisateur ou un expert applicatif. En fait, il s'agit de s'appuyer sur ses connaissances pour extraire des segments vidéo représentatifs du concept que l'on souhaite définir. On peut lui demander d'indexer manuellement la base d'apprentissage, mais cette opération est longue et fastidieuse. Dans cet article, nous proposons une méthode qui permet d'extraire l'expertise pour que l'implication de l'expert soit la plus simple et la plus limitée possible.",
+    "uri": "https://hal.science/hal-00674616v1"
+  },
+  {
+    "title": "Contribution au développement de l’apprentissage profond dans les systèmes distribués",
+    "authors": [
+      "Corentin Hardy"
+    ],
+    "year": 2019,
+    "abstract": "L'apprentissage profond permet de développer un nombre de services de plus en plus important. Il nécessite cependant de grandes bases de données d'apprentissage et beaucoup de puissance de calcul. Afin de réduire les coûts de cet apprentissage profond, nous proposons la mise en œuvre d'un apprentissage collaboratif. Les futures utilisateurs des services permis par l'apprentissage profond peuvent ainsi participer à celui-ci en mettant à disposition leurs machines ainsi que leurs données sans déplacer ces dernières sur le cloud. Nous proposons différentes méthodes afin d'apprendre des réseaux de neurones profonds dans ce contexte de système distribué.",
+    "uri": "https://theses.hal.science/tel-02284916v1"
+  },
+  {
+    "title": "Apprentissage actif de modèle de MDP",
+    "authors": [
+      "Mauricio Araya-López",
+      "Olivier Buffet",
+      "Vincent Thomas",
+      "François Charpillet"
+    ],
+    "year": 2011,
+    "abstract": "Dans cet article, nous nous intéressons à un problème d'apprentissage actif consistant à déduire le modèle de transition d'un Processus de Décision Markovien (MDP) en agissant et en observant les transitions résultantes. Ceci est particulièrement utile lorsque la fonction de récompense n'est pas initialement accessible. Notre proposition consiste à formuler ce problème d'apprentissage actif en un problème de maximisation d'utilité dans le cadre de l'apprentissage par renforcement bayésien avec des récompenses dépendant de l'état de croyance. Après avoir présenté trois critères de performance possibles, nous en dérivons des récompenses dépendant de l'état de croyance que l'on pourra utiliser dans le processus de prise de décision. Comme le calcul de la fonction de valeur bayésienne optimale n'est pas envisageable pour de larges horizons, nous utilisons un algorithme simple pour résoudre de manière approchée ce problème d'optimisation. Malgré le fait que la solution est sous- optimale, nous montrons expérimentalement que notre proposition est néanmoins efficace dans un certain nombre de domaines.",
+    "uri": "https://inria.hal.science/hal-00642913v1"
+  },
+  {
+    "title": "Détection automatique d'erreurs d'annotations pour améliorer les performances des algorithmes d'apprentissage automatique",
+    "authors": [
+      "Carole Lemort"
+    ],
+    "year": 2011,
+    "abstract": "Actuellement, les techniques de transcriptions automatiques de parole et d'annotation de ces transcriptions restent très dépendantes de l'environnement dans lequel ont lieu les enregistrements. Cela pose un problème pour le résumé automatique, la traduction, ainsi que la reconnaissance d'entités nommées. Aussi, le but de ce document est d'améliorer la détection des annotations erronées afin qu'il soit possible par la suite les corriger et d'obtenir des annotations de meilleure qualité. Dans un premier temps, nous présentons un état de l'art, puis le protocole expérimental. Dans un second temps, nous commentons les résultats.",
+    "uri": "https://dumas.ccsd.cnrs.fr/dumas-00636454v1"
+  },
+  {
+    "title": "Évaluation des architectures d'apprentissage automatique pour la détection et le diagnostic des anomalies dans les procédés chimiques",
+    "authors": [
+      "Rayane Ammar Khodja",
+      "Alexandre Voisin",
+      "Victor Costa",
+      "Fanny Casteran",
+      "Benoit Celse",
+      "Benoît Iung"
+    ],
+    "year": 2025,
+    "abstract": "La détection et le diagnostic des anomalies (FDD : Fault Detection and Diagnosis) est un sujet crucial tant pour le pilotage que la maintenance afin d’anticiper les défaillances coûteuses et optimiser les opérations notamment dans l’industrie chimique comme par exemple dans le cas d’unités pilotes, comme celles d'IFP Energies Nouvelles (IFPEN), qui fonctionnent sur des temps courts avec des paramètres opérationnels variant fréquemment. Bien que diverses approches d'apprentissage automatique aient été proposées pour le FDD dans la littérature [1] [2], il subsiste un manque dans l'évaluation plus globale dans ce type d’application. Cette étude consiste en une analyse comparative de plusieurs approches basées sur l’apprentissage automatique pour la FDD. Pour cela nous utilisons le Tennessee Eastman Process (TEP), un jeu de données de simulation de procédé chimique, qui est un benchmark dans ce domaine et qui comporte plusieurs type dysfonctionnements ainsi que plusieurs « productions » rendant compte de la variabilité du processus dans des conditions opérationnelles identiques. Dans cette étude, plusieurs méthodes ont été implémentées et comparées, notamment l'ACP multi-échelle (Multi Scale PCA), l'AutoEncoder, l'Apprentissage d'Ensemble (Ensemble Learning), et les modèles LSTM (Long Short Term Memory) pour la détection des défauts, ainsi que Random Forest, XGBoost et BLSTM (Bidirectional LSTM) pour leur diagnostic.",
+    "uri": "https://hal.science/hal-05471853v1"
+  },
+  {
+    "title": "Apprentissage et planification",
+    "authors": [
+      "F. Garcia"
+    ],
+    "year": 1997,
+    "abstract": "Les applications de plus en plus nombreuses de la planification en Intelligence Artificielle conduit à un développement des besoins en apprentissage automatique. Nous présentons ici un premier état de l'art des différentes utilisations de l'apprentissage en planification, selon les trois grand thèmes actuels de recherche : apprentissage d'heuristique de contrôle, apprentissage des domaines et apprentissage direct des stratégies.",
+    "uri": "https://hal.inrae.fr/hal-02768682v1"
+  },
+  {
+    "title": "Heuristique pour l'apprentissage automatique décentralisé d'interactions dans des systèmes multi-agents réactifs",
+    "authors": [
+      "Vincent Thomas",
+      "Vincent Chevrier",
+      "Christine Bourjot"
+    ],
+    "year": 2006,
+    "abstract": "Cet article propose une heuristique pour la construction automatique d'interactions dans un système multi-agent réactif. Il décrit le formalisme interac-DEC-POMDP qui permet de représenter dans un cadre homogène interactions et actions puis développe un algorithme fondé sur des échanges de récompenses et des techniques d'apprentissage par renforcement pour construire automatiquement et de manière entièrement décentralisée des organisations dans une sous-classe des interac-DEC-POMDPs. Ces techniques permettent en outre de produire à moindre coûts des comportements collectifs adaptatifs basés sur la notion d'interaction directe.",
+    "uri": "https://inria.hal.science/inria-00104872v1"
+  },
+  {
+    "title": "Quelques lois d'adaptation pour neurones artificiels et réels",
+    "authors": [
+      "Frédéric Alexandre"
+    ],
+    "year": 2000,
+    "abstract": "Le but de ce texte est de proposer un point de vue de l'adaptation, sous l'angle du connexionnisme. Cet angle sera pris volontairement large, dans la mesure où il me semble important de parler, bien sûr, du caractère adaptatif des réseaux de neurones artificiels, mais au moins aussi important de replacer ces propriétés dans le cadre plus général de l'apprentissage animal et humain. Je commencerai par une présentation générale du connexionnisme, puis des principales lois d'apprentissage permettant l'adaptation des modèles de réseaux de neurones artificiels. Ceci pourra être replacé d'une part, dans le cadre des statistiques et d'autre part, dans le cadre de l'apprentissage animal et humain. Sur ce dernier point, je ferai une présentation rapide des théories actuellement admises et de leur possible rencontre avec des modèles de réseaux de neurones artificiels.",
+    "uri": "https://inria.hal.science/inria-00099049v1"
+  },
+  {
+    "title": "Apprentissage de bonnes similarités pour la classification linéaire parcimonieuse",
+    "authors": [
+      "Aurélien Bellet",
+      "Amaury Habrard",
+      "Marc Sebban"
+    ],
+    "year": 2012,
+    "abstract": "Le rôle crucial joué par les métriques au sein des processus d'apprentissage automatique a donné lieu ces dernières années à un intérêt croissant pour l'optimisation de fonctions de distances ou de similarités. La plupart des approches de l'état de l'art visent à apprendre une distance de Mahalanobis, devant satisfaire la contrainte de semi-définie positivité (SDP), exploitée in fine dans un algorithme local de type plus-proches-voisins. Cependant, aucun résultat théorique n'établit le lien entre les métriques apprises et leur comportement en classification. Dans cet article, nous exploitons le cadre formel des bonnes similarités pour proposer un algorithme d'apprentissage de similarité linéaire, optimisée dans un espace kernélisé. Nous montrons que la similarité apprise, ne requérant pas d'être SDP, possède des propriétés théoriques de stabilité permettant d'établir une borne en généralisation. Les expérimentations menées sur plusieurs jeux de données confirment son efficacité par rapport à l'état de l'art.",
+    "uri": "https://hal.science/hal-00690242v1"
+  },
+  {
+    "title": "Interaction texte/figure : effet de leur disposition spatiale relative sur l'apprentissage",
+    "authors": [
+      "Mireille Betrancourt"
+    ],
+    "year": 1992,
+    "abstract": "A la suite de travaux de psychologie cognitive et tout particulierement des recents resultats de Sweller, cette recherche vise a preciser l'effet sur l'apprentissage de la modalite de presentation de textes et figures en relation mutuelle, au point de vue de leur disposition spatiale relative dans la page. Plus precisement, l'objectif de cette etude est de tester l'influence de l'integration du commentaire textuel au sein meme de la figure. Ainsi, nous avons mene une experience pour comparer l'efficacite de trois modalites de presentation du materiel d'apprentissage sur ecran d'ordinateur : presentation \"conventionnelle\" (texte et figure separes), presentation \"integree\" (texte directement place sur l'element graphique concerne), presentation \"escamot\" (textes integres en \"pop-up window\" n'apparaissant que sous demarche active du sujet). Les resultats montrent un avantage en faveur des presentations \"integree\" et surtout \"escamot\" en temps d'apprentissage et en performances, ce qui permet de garder l'hypothese d'une part d'une facilitation de l'apprentissage d'un materiel ou textes et figures sont integres, d'autre part d'une facilitation accrue lorsque les textes n'apparaissent que sous demarche active du sujet.",
+    "uri": "https://inria.hal.science/inria-00077021v1"
+  },
+  {
+    "title": "Optimisation des propriétés d’un supercontinuum par apprentissage automatique pour la microscopie multiphotonique",
+    "authors": [
+      "Van Thuy Hoang",
+      "Yassin Boussafa",
+      "Lynn Sader",
+      "Sébastien Février",
+      "Vincent Couderc",
+      "Benjamin Wetzel"
+    ],
+    "year": 2022,
+    "abstract": "Nous étudions des approches innovantes d’apprentissage automatique afin d’optimiser les propriétés spectro-temporelles d’un supercontinuum fibré. Nous démontrons numériquement que l’ajustement d’un motif d’impulsions femtosecondes permet de maximiser le profil temporel à des longueurs d’onde pertinentes en imagerie multiphotonique.",
+    "uri": "https://hal.science/hal-03811797v1"
+  },
+  {
+    "title": "Définitions et caractérisations de modèles à base d'analogies pour l'apprentissage automatique des langues naturelles",
+    "authors": [
+      "Nicolas Stroppa"
+    ],
+    "year": 2005,
+    "abstract": "Le panorama du Traitement Automatique des Langues est dominé par deux familles d'approches~: dans la première, la connaissance linguistique s'exprime sous forme de règles (grammaticales pour le traitement syntaxique, d'inférence pour le traitement sémantique, etc.), et de représentations sur lesquelles ces règles opèrent. La deuxième repose sur l'hypothèse d'un modèle probabiliste sous-jacent aux données, modèle dont les paramètres s'infèrent à partir de corpus de données linguistiques annotées. Ces deux familles de méthodes, bien qu'efficaces pour nombre d'applications, présentent de sérieuses limitations. Pour la première, il s'agit de la difficulté et du coût de construction des bases de connaissances de haute qualité~: les experts sont rares et la connaissance accumulée sur un domaine $X$ ne se transporte pas toujours simplement sur un autre domaine $Y$. Les méthodes probabilistes, quant à elles, ne traitent pas naturellement les objets fortement structurés, ne prévoient pas d'inclusion de connaissances linguistiques explicites, et surtout, reposent lourdement sur le choix a priori d'un certain modèle, puisqu'utilisant principalement des techniques de statistiques paramétriques. Dans le cadre d'un apprentissage automatique de données linguistiques, des modèles inférentiels alternatifs ont alors été proposés qui remettent en cause le principe d'abstraction opéré par les règles ou les modèles probabilistes. Selon cette conception, la connaissance linguistique reste implicitement représentée dans le corpus accumulé. Dans le domaine de l'Apprentissage Automatique, les méthodes suivant les même principes sont regroupées sous l'appellation d'apprentissage \\og{}paresseux\\fg{}. Ces méthodes reposent généralement sur le biais d'apprentissage suivant~: si un objet $Y$ est \\og{}proche\\fg{} d'un objet $X$, alors son analyse $f(Y)$ est un bon candidat pour $f(X)$. Alors que l'hypothèse invoquée se justifie pour les applications usuellement traitées en Apprentissage Automatique, la nature structurée et l'organisation paradigmatique des données linguistiques suggèrent une approche légèrement différente. Pour rendre compte de cette particularité, nous étudions un modèle reposant sur la notion de \\og{}proportion analogique\\fg{}. Dans ce modèle, l'analyse $f(T)$ d'un nouvel objet $T$ s'opère par identification d'une proportion analogique avec des objets $X$, $Y$ et $Z$ déjà connus. L'hypothèse analogique postule ainsi que si \\lana{X}{Y}{Z}{T}, alors \\lana{$f(X)$}{$f(Y)$}{$f(Z)$}{$f(T)$}. Pour inférer $f(T)$ à partir des $f(X)$, $f(Y)$, $f(Z)$ déjà connus, on résout l'\\og{}équation analogique\\fg{} d'inconnue $I$~: \\lana{$f(X)$}{$f(Y)$}{$f(Z)$}{$I$}. Nous présentons, dans la première partie de ce travail, une étude de ce modèle de proportion analogique au regard d'un cadre plus général que nous qualifierons d'\\og{}apprentissage par analogie\\fg{}. Ce cadre s'instancie dans un certain nombre de contextes~: dans le domaine des sciences cognitives, il s'agit de raisonnement par analogie, faculté essentielle au c\\oe{}ur de nombreux processus cognitifs~; dans le cadre de la linguistique traditionnelle, il fournit un support à un certain nombre de mécanismes tels que la création analogique, l'opposition ou la commutation~; dans le contexte de l'apprentissage automatique, il correspond à l'ensemble des méthodes d'apprentissage paresseux. Cette mise en perspective offre un éclairage sur la nature du modèle et les mécanismes sous-jacents. La deuxième partie de notre travail propose un cadre algébrique unifié, définissant la notion de proportion analogique. Partant d'un modèle de proportion analogique entre chaînes de symboles, éléments d'un monoïde libre, nous présentons une extension au cas plus général des semigroupes. Cette généralisation conduit directement à une définition valide pour tous les ensembles dérivant de la structure de semigroupe, permettant ainsi la modélisation des proportions analogiques entre représentations courantes d'entités linguistiques telles que chaînes de symboles, arbres, structures de traits et langages finis. Des algorithmes adaptés au traitement des proportions analogiques entre de tels objets structurés sont présentés. Nous proposons également quelques directions pour enrichir le modèle, et permettre ainsi son utilisation dans des cas plus complexes. Le modèle inférentiel étudié, motivé par des besoins en Traitement Automatique des Langues, est ensuite explicitement interprété comme une méthode d'Apprentissage Automatique. Cette formalisation a permis de mettre en évidence plusieurs de ses éléments caractéristiques. Une particularité notable du modèle réside dans sa capacité à traiter des objets structurés, aussi bien en entrée qu'en sortie, alors que la tâche classique de classification suppose en général un espace de sortie constitué d'un ensemble fini de classes. Nous montrons ensuite comment exprimer le biais d'apprentissage de la méthode à l'aide de l'introduction de la notion d'extension analogique. Enfin, nous concluons par la présentation de résultats expérimentaux issus de l'application de notre modèle à plusieurs tâches de Traitement Automatique des Langues~: transcription orthographique/phonétique, analyse flexionnelle et analyse dérivationnelle.",
+    "uri": "https://pastel.hal.science/tel-00145147v1"
+  },
+  {
+    "title": "DEFT 2020 : détection de similarité entre phrases et extraction d'information",
+    "authors": [
+      "Mike Tapi Nzali"
+    ],
+    "year": 2020,
+    "abstract": "Ce papier décrit la participation de Reezocar à la campagne d’évaluation DEFT 2020. Cette seizième édition du challenge a porté sur le calcul de similarité entre phrases et l’extraction d’information fine autour d’une douzaine de catégories dans des textes rédigés en Français. Le challenge propose trois tâches : (i) la première concerne l’identification du degré de similarité entre paires de phrases ; (ii) la deuxième concerne l’identification des phrases parallèles possibles pour une phrase source et (iii) la troisième concerne l’extraction d’information. Nous avons utilisé des méthodes d’apprentissage automatique pour effectuer ces tâches et avons obtenu des résultats satisfaisants sur l’ensemble des tâches.",
+    "uri": "https://hal.science/hal-02784745v3"
+  },
+  {
+    "title": "La confidentialité différentielle : quelle quantification de la privacy dans le monde de l’apprentissage automatique ?",
+    "authors": [
+      "Edwige Cyffers"
+    ],
+    "year": 2021,
+    "abstract": "L’effondrement des prix de stockage de l’information, la couverture croissante des usages informatiques et des collectes de données qui y sont associées ainsi que l’accroissement des capacités de traitement de l’information sont autant de bouleversements techniques dans le domaine de l’information. Que l’on parle de Big Data, ou que l’on considère simplement les conséquences de la numérisation lors de la crise sanitaire ces deux dernières années, la collecte généralisée de données sensibles est un nouvel enjeu de notre société. À titre d’exemple, un téléphone récolte le généralement la position instantanée, les relations, les heures de sommeil, les questions et autres données de santé de son utilisateur. La nécessité de sécuriser et d’éviter les fuites de données, qu’elles soient malicieuses ou non, est donc un enjeu clé de la transition numérique. Mais comment peut-on garantir la privacy ? Ce concept a de nombreuses facettes : offuscation, droit à l’oubli, anonymat, confidentialité, minimisation des données. Dans le cadre de l’apprentissage automatique (Machine learning), une métrique s’est imposée au sein de la recherche et des applications des GAFAM pour quantifier le niveau de privacy d’un procédé donné. La confidentialité différentielle (differential privacy) est en effet une définition mathématique qui réduit à un nombre réel le niveau de persistance d’une donnée dans les sorties d’un algorithme. Ce mémoire décrit l’émergence et les facteurs qui ont contribué au succès de cette quantification, ainsi que les conséquences implicites de cette définition sur les attentes de l’apprentissage automatique et le rapport entre l’individu et ses données. Nous abordons donc l’évolution de la notion de privacy face aux nouvelles réalités techniques, nous mettons en contexte la définition de confidentialité différentielle comme une technique de quantification et nous analysons ses variantes comme limites de la définition originelle.",
+    "uri": "https://dumas.ccsd.cnrs.fr/dumas-03538878v1"
+  },
+  {
+    "title": "Utilisation de l’apprentissage de variété pour le diagnostic médical : application aux neuropathies optiques",
+    "authors": [
+      "Charlotte Fabert"
+    ],
+    "year": 2019,
+    "abstract": "Les images de résonance magnétique pondérées en diffusion révèlent le mouvement brownien des molécules d’eau, qui peut être utilisé pour la reconstruction des faisceaux nerveux lors d'un post-traitement de tractographie. Des algorithmes d'apprentissage automatique ont récemment été proposés pour améliorer le processus de reconstruction de fibres. Cependant, le processus tractographique en tant que tel est chronophage en pratique clinique et dépend fortement de la modélisation du signal de diffusion. De plus, l'utilisation de méthodes d'apprentissage automatique supervisées pose un problème de gold standard. Proposer une méthode d’apprentissage automatique non supervisée avec la capacité de reconstruire des structures anatomiques directement à partir de la distribution d’orientation des fibres nerveuses (FOD) permet d’explorer des modèles de maladies. La représentation statistique de la géométrie du FOD nécessite des théories appropriées pour imposer des propriétés physiquement dépendant d'un espace non euclidien. Nous présentons ici un nouveau moyen d'analyse des FOD, tel qu’il est extrait par approximation Riemannienne. Nous avons ensuite appliqué cet algorithme sur les voies optiques antérieures humaines dans des conditions normales et pathologiques, afin de démontrer la faisabilité d'un diagnostic de neuropathie optique ischémique ou démyélinisante.",
+    "uri": "https://dumas.ccsd.cnrs.fr/dumas-03240571v1"
+  },
+  {
+    "title": "De l'utilisation de la proportion analogique en apprentissage artificiel",
+    "authors": [
+      "Laurent Miclet",
+      "Sabri Bayoudh",
+      "Arnaud Delhay",
+      "Harold Mouchère"
+    ],
+    "year": 2007,
+    "abstract": "Cet article s'intéresse à la proportion analogique, une forme simple du raisonnement par analogie, et décrit son utilisation en apprentissage artificiel. Nous nous attachons plus particulièrement à définir une nouvelle notion, la dissimilarité analogique et à l'appliquer à des séquences. Après avoir défini la proportion analogique, la dissimilarité analogique et la résolution approchée d'équations analogiques, nous décrivons deux algorithmes qui rendent opérationnels ces notions pour des objets numériques ou symboliques et pour des séquences de ces objets. Nous montrons ensuite leur efficacité au travers de deux cas pratiques : le premier est l'apprentissage d'une règle de classification pour des objets décrits par des attributs nominaux; le second montre comment la génération de nouveaux exemples (par résolution approchée d'équations analogiques) peut aider un système de reconnaissance de caractères manuscrits à s'adapter très rapidement à un nouveau scripteur. Une discussion plus générale sur l'apport du raisonnement par analogie pour l'apprentissage artificiel termine cet article.",
+    "uri": "https://inria.hal.science/hal-04650493v1"
+  },
+  {
+    "title": "Apprentissage par Renforcement pour la Conception de Systèmes Multi-Agents",
+    "authors": [
+      "Olivier Buffet"
+    ],
+    "year": 2002,
+    "abstract": "Ce rapport présente les résultats des deux premières années d'une thèse s'intéressant à l'utilisation de l'apprentissage par renforcement (formalisme des Processus de Décision Markoviens) pour la conception de groupes d'agents coopérants (Systèmes Multi-Agents). Ce document a été rédigé à l'occasion de la réunion d'un comité de thèse.",
+    "uri": "https://inria.hal.science/inria-00100787v1"
+  },
+  {
+    "title": "Apprentissage par Renforcement : Au delà des Processus Décisionnels de Markov (Vers la cognition incarnée)",
+    "authors": [
+      "Alain Dutech"
+    ],
+    "year": 2010,
+    "abstract": "Ce document présente mon ``projet de recherche'' sur le thème de l'embodiment (``cognition incarnée'') au croisement des sciences cognitives, de l'intelligence artificielle et de la robotique. Plus précisément, je montre comment je compte explorer la façon dont un agent, artificiel ou biologique, élabore des représentations utiles et pertinentes de son environnement. Dans un premier temps, je positionne mes travaux en explicitant notamment les concepts de l'embodiment et de l'apprentissage par renforcement. Je m'attarde notamment sur la problématique de l'apprentissage par renforcement pour des tâches non-Markoviennes qui est une problématique commune aux différents travaux de recherche que j'ai menés au cours des treize dernières années dans des contextes mono et multi-agents, mais aussi robotique. L'analyse de ces travaux et de l'état de l'art du domaine me conforte dans l'idée que la principale difficulté pour l'agent est bien celle de trouver des représentations adaptées, utiles et pertinentes. J'argumente que l'on se retrouve face à une problématique fondamentale de la cognition, intimement liée aux problèmes de ``l'ancrage des symboles'', du ``frame problem'' et du fait ``d'être en situation'' et qu'on ne pourra y apporter des réponses que dans le cadre de l'embodiment. C'est à partir de ce constat que, dans une dernière partie, j'aborde les axes et les approches que je vais suivre pour poursuivre mes travaux en développant des techniques d'apprentissage robotique qui soient incrémentales, holistiques et motivationnelles.",
+    "uri": "https://theses.hal.science/tel-00549108v1"
+  },
+  {
+    "title": "Vers une approche Bio-inspirée pour l'orchestration pédagogique des activités mobiles d'apprentissage",
+    "authors": [
+      "Nassim Dennouni",
+      "Yvan Peter",
+      "Luigi Lancieri",
+      "Zohra Slama"
+    ],
+    "year": 2015,
+    "abstract": "Cet article présente une nouvelle approche pour recommander des parcours d'apprentissage adaptés au contexte des apprenants mobiles. Pour cela, nous proposons un système de filtrage collaboratif des points d'intérêt qui permet de guider l'apprenant dans le cadre d'une sortie pédagogique. Ce système de recommandation permet ainsi l’orchestration automatique des activités mobiles d’apprentissage en fonction de la localisation géographique des apprenants et de leurs historiques.",
+    "uri": "https://hal.science/hal-01405974v1"
+  },
+  {
+    "title": "Apprentissage Actif à l'ère des Grands Modèles de Langue (LLMs)",
+    "authors": [
+      "Shami Thirion Sen",
+      "Rime Abrougui",
+      "Guillaume Lechien",
+      "Damien Nouvel"
+    ],
+    "year": 2025,
+    "abstract": "<div><p>En TAL, la performance des modèles dépend fortement de la qualité et de la quantité des données annotées. Lorsque ces ressources sont limitées, l'apprentissage actif (Active Learning) offre une solution efficace en sélectionnant les échantillons les plus pertinents à annoter. Traditionnellement, cette tâche est réalisée par des annotateurs humains, mais nous explorons ici le potentiel du grand modèle de langue Mixtral-8x7B pour générer automatiquement ces annotations. En outre, nous analysons l'influence de l'augmentation des données dans un processus d'apprentissage actif pour la reconnaissance d'entités nommées afin d'améliorer la performance des catégories sous-représentées, ainsi que l'impact du prompt et des hyper-paramètres sur la qualité des annotations générées. Les évaluations conduites sur le corpus WiNER montrent que, malgré l'absence d'annotations manuelles, cette approche permet d'obtenir des performances comparables à notre baseline, tout en réduisant de 80 % la quantité des données annotées.</p></div>",
+    "uri": "https://hal.science/hal-05332233v1"
+  },
+  {
+    "title": "Personnalisation automatique des parcours d’apprentissage dans les Systèmes Tuteurs Intelligents",
+    "authors": [
+      "Didier Roy"
+    ],
+    "year": 2015,
+    "abstract": "La recherche d’efficacité des systèmes tutoriels intelligents (STI) est un enjeu majeur. Nous présentons ici une méthode d’optimisation des parcours d’apprentissage pour chaque apprenant. Nous cherchons à proposer à chaque instant à l’apprenant l’activité qui lui fait faire le plus de progrès dans son apprentissage. Nous introduisons deux algorithmes : RiARiT, qui nécessite des informations préalables sur les activités, et ZPDES, qui n’en a pas besoin.",
+    "uri": "https://inria.hal.science/hal-01144515v2"
+  },
+  {
+    "title": "Les apports de la transcription automatique de la parole : du cours magistral à la production collaborative de contenus pédagogiques",
+    "authors": [
+      "Raphaëlle Crétin"
+    ],
+    "year": 2021,
+    "abstract": "L’article s’inscrit dans le cadre du projet ANR Pastel (Performing Automated Speech Transcription for Enhancing Learning) ayant pour objectif d’explorer le potentiel de la transcription automatique de la parole dans des contextes d’apprentissage mixtes. L’un des objectifs du projet est d’instrumenter des situations pédagogiques permettant d’envisager la création de Spoc (small private online course) destinés à des publics diversifiés. Nous présentons dans un premier temps les éléments méthodologiques ayant guidé l’analyse des besoins et les principaux résultats. Nous dressons dans un deuxième temps un état des lieux des pratiques informationnelles en et hors contexte pour un échantillon composé d’étudiants ou d’enseignants, ainsi que des changements de perspective pédagogique induits par les potentialités d’usage d’une technologie nouvelle comme la transcription automatique. Dans un troisième temps, le protocole d’analyse des usages quantitatifs et qualitatifs concernant la situation pédagogique instrumentée en décembre dernier et une expérimentation menée en mars est expliqué. Enfin, nous discutons des limites de notre approche du point de vue de l’instrumentation de situations pédagogiques et des perspectives du projet.",
+    "uri": "https://hal.science/hal-01824285v1"
+  },
+  {
+    "title": "Évaluation des performances de l’intelligence artificielle et de l’apprentissage automatique pour la prévision des crues : étude de cas du bassin versant de l’Ill",
+    "authors": [
+      "Nicolas Reiminger",
+      "Xavier Jurado",
+      "Loïc Saunier",
+      "Loïc Maurer",
+      "Eva Reiminger",
+      "Lucie Weber",
+      "Ly Nguyen",
+      "Cédric Wemmert"
+    ],
+    "year": 2024,
+    "abstract": "Les inondations, une aléa récurrente pouvant se montrer dévastatrice, peuvent causer de lourds dommages humains et économiques, et sont susceptibles de s'intensifier avec le changement climatique. Leurs impacts soulignent la nécessité d'anticiper les crues en développant constamment des outils efficaces et à la pointe pour la gestion du risque d'inondation. En France, la prévision des crues repose sur des outils de modélisation spécifiques basés sur la physique, la donnée ou une combinaison des deux. L'intelligence artificielle (IA), en plein essor, offre de nouvelles possibilités et perspectives pour les ingénieurs et chercheurs du domaine, mais n'est cependant pas encore utilisée à l'échelle nationale pour la prévision des crues. Bien que les algorithmes complexes d'apprentissage automatique (ML, Machine Learning) soient prometteurs pour la prévision des crues, leur mise en œuvre et leur utilisation courante restent difficiles pour les non-spécialistes. Cet article explore l'utilisation de six algorithmes d'apprentissage automatique, incluant des modèles simples d'ensemble, pour prévoir les hauteurs d'eau à 24 heures au niveau de deux stations de prévision des crues en France situées dans le Grand Est. Les résultats montrent que les niveaux d'eau, et donc les crues, peuvent être anticipés 24 heures à l'avance en utilisant uniquement des données de hauteur d'eau et par l'intermédiaire de modèles d'apprentissage automatique simples appartenant aux modèles ensemblistes. (Random Forest et Gradient Boosting). Ces derniers se révèlent performants, tout en restant accessible aux non-spécialistes, tandis que les modèles plus complexes ne permettent pas d'obtenir des résultats supérieurs en l'absence de données météorologiques supplémentaires telles que les pluies. Ce travail ouvre la voie vers l'utilisation de l'apprentissage automatique et de l'intelligence artificielle pour la prévision des crues en France. Abstract Les inondations, un risque récurrent au potentiel dévastateur, peuvent causer des dommages humains et économiques importants et sont susceptibles de s'intensifier avec le changement climatique. Leurs impacts soulignent la nécessité d'anticiper les inondations en développant continuellement des outils efficaces et de pointe pour la gestion du risque d'inondation. En France, la prévision des inondations s'appuie sur des outils de modélisation spécifiques basés sur la physique, les données ou une combinaison des deux. L'intelligence artificielle (IA), en pleine expansion, offre de nouvelles possibilités et perspectives aux ingénieurs et chercheurs du domaine, mais n'est pas encore utilisée à l'échelle nationale pour la prévision des inondations. Si les algorithmes complexes d'apprentissage automatique sont prometteurs pour la prévision des inondations, leur mise en œuvre et leur utilisation généralisée restent difficiles pour les non-spécialistes. Cet article explore l'utilisation de six algorithmes d'apprentissage automatique, dont des modèles d'ensemble simples, pour prévoir les niveaux d'eau 24 heures à l'avance dans deux stations de prévision des inondations dans la région du Grand Est en France. Les résultats démontrent que les niveaux d'eau, et par conséquent les inondations, peuvent être anticipés en utilisant uniquement des données de niveau d'eau grâce à des modèles d'apprentissage automatique simples appartenant à des modèles d'ensemble (Random Forest et Gradient Boosting). Ces modèles sont performants tout en restant accessibles aux non-spécialistes, alors que les modèles plus complexes ne donnent pas de résultats supérieurs en l’absence de données météorologiques complémentaires telles que les précipitations. Ces travaux ouvrent la voie à l’utilisation de l’apprentissage automatique et de l’intelligence artificielle dans la prévision des inondations en France.",
+    "uri": "https://hal.science/hal-04799457v1"
+  },
+  {
+    "title": "Analyse automatique de la structure thématique du discours pour la navigation documentaire",
+    "authors": [
+      "Frédérik Bilhaut"
+    ],
+    "year": 2004,
+    "abstract": "Le système que nous proposons s'articule sur trois points. En premier lieu, nous définissons une notion de thème composite permettant d'indexer finement le contenu informationnel d'un document par sa structure thématique. D'autre part, nous proposons un modèle de représentation des connaissances permettant de guider l'analyse discursive, sous la forme d'axes structurants du domaine. Enfin, nous proposons un système d'apprentissage supervisé qui, combiné à une interface utilisateur, permet la constitution et l'édition rapides de ces ressources. À partir de l'indexation obtenue, les applications visées sont la recherche d'information mais aussi la navigation intradocumentaire et la synthèse automatique.",
+    "uri": "https://archivesic.ccsd.cnrs.fr/sic_00001223v1"
+  },
+  {
+    "title": "Apprentissage auto-supervisé pour la détection d'actions illégales lors de la surveillance du trafic maritime",
+    "authors": [
+      "P Bernabé",
+      "A Gotlieb",
+      "B Legeard",
+      "F Olaf Sem-Jacobsen",
+      "H Spieker"
+    ],
+    "year": 2021,
+    "abstract": "La surveillance du trafic maritime est confrontée à des difficultés très importantes dans la détection des activités illégales en mer. Dans cet article, nous présentons les premiers résultats d'une méthode d'apprentissage autosupervisé qui vise à déceler les déconnexions volontaires du système d'identification des navires. En traitant les données provenant de quatre satellites de surveillance norvégiens, notre modèle d'apprentissage vise l'identification de navires soupçonnés d'activités illégales telles que la pêche dans des zones protégées ou bien le franchissement de zones d'exclusion économique en temps réel. Dans cet article, nous présentons une approche fondée sur des techniques d'apprentissage auto-supervisé, et expérimentée à partir de données réelles.",
+    "uri": "https://hal.science/hal-03874246v1"
+  },
+  {
+    "title": "Optimisation et apprentissage de modèles biologiques : application à lirrigation [sic l'irrigation] de pomme de terre",
+    "authors": [
+      "Amaury Dubois"
+    ],
+    "year": 2020,
+    "abstract": "Le sujet de la thèse porte sur une des thématiques du LISIC : la modélisation et la simulation de systèmes complexes, ainsi que sur l'optimisation et l'apprentissage automatique pour l'agronomie. Les objectifs de la thèse sont de répondre aux questions de pilotage de l'irrigation de la culture de pomme de terre par le développement d'outils d'aide à la décision à destination des exploitants agricoles. Le choix de cette culture est motivé par sa part importante dans la région des Hauts-de-France. Le manuscrit s'articule en 3 parties. La première partie traite de l'optimisation continue mutlimodale dans un contexte de boîte noire. Il en suit une présentation d'une méthodologie d'étalonnage automatique de paramètres de modèle biologique grâce à une reformulation en un problème d'optimisation continue mono-objectif multimodale de type boîte noire. La pertinence de l'utilisation de l'analyse inverse comme méthodologie de paramétrage automatique de modèles de grandes dimensions est ensuite démontrée. La deuxième partie présente 2 nouveaux algorithmes UCB Random with Decreasing Step-size et UCT Random with Decreasing Step-size. Ce sont des algorithmes d'optimisation continue multimodale boîte noire dont le choix de la position initiale des individus est assisté par un algorithmes d'apprentissage par renforcement. Les résultats montrent que ces algorithmes possèdent de meilleures performances que les algorithmes état de l'art Quasi Random with Decreasing Step-size. Enfin, la dernière partie est focalisée sur les principes et les méthodes d'apprentissage automatique (machine learning). Une reformulation du problème de la prédiction à une semaine de la teneur en eau dans le sol en un problème d'apprentissage supervisé a permis le développement d'un nouvel outil d'aide à la décision pour répondre à la problématique du pilotage des cultures.",
+    "uri": "https://theses.hal.science/tel-03144024v1"
+  },
+  {
+    "title": "Acquisition de connaissances et apprentissage automatique pour l'élaboration d'une base de connaissances",
+    "authors": [
+      "Habib Hadj-Mabrouk",
+      "Bernard Houriez"
+    ],
+    "year": 1992,
+    "abstract": "Cet article présente une étude de faisabilité d'un système à base de connaissances pour l'aide à la certification des Systèmes de Transport Terrestre Automatisé (STA). L'étude nous a conduit à introduire conjointement des techniques d'acquisition de connaissances et d'apprentissage symbolique-numérique. L'approche développée met à contribution deux mécanismes d'apprentissage : CHARADE /GANA 87/ et CLASCA /HADJ 91/, pour dégager un savoir-faire en certification, à partir d'exemples de scénarios historiques d'analyse de sécurité détenus par les experts de certification et les constructeurs sur les \"STA\" déjà certifiés. Cette recherche est soutenue par une bourse de doctorat cofinancée par la Région Nord-Pas de Calais et l'INRETS. Elle résulte d'une collaboration entre l'INRETS-CRESTA et le LAIH de l'Université de Valenciennes dans le cadre du GRRT (Groupement Régional pour la Recherche dans les Transports).",
+    "uri": "https://hal.science/hal-03027659v1"
+  },
+  {
+    "title": "Apprentissage symbolique de grammaires et traitement automatique des langues",
+    "authors": [
+      "Erwan Moreau"
+    ],
+    "year": 2007,
+    "abstract": "Le modèle de Gold formalise le processus d'apprentissage d'un langage. Nous présentons dans cet article les avantages et inconvénients de ce cadre théorique contraignant, dans la perspective d'applications en TAL. Nous décrivons brièvement les récentes avancées dans ce domaine, qui soulèvent selon nous certaines questions importantes.",
+    "uri": "https://hal.science/hal-00487071v1"
+  },
+  {
+    "title": "Apprentissage de représentation et auto-organisation modulaire pour un agent autonome",
+    "authors": [
+      "Bruno Scherrer"
+    ],
+    "year": 2003,
+    "abstract": "Cette thèse étudie l'utilisation d'algorithmes connexionnistes pour résoudre des problèmes d'apprentissage par renforcement. Les algorithmes connexionnistes sont inspirés de la manière dont le cerveau traite l'information : ils impliquent un grand nombre d'unités simples fortement interconnectées, manipulant des informations numériques de manière distribuée et massivement parallèle. L'apprentissage par renforcement est une théorie computationnelle qui permet de décrire l'interaction entre un agent et un environnement : elle permet de formaliser précisément le problème consistant à atteindre un certain nombre de buts via l'interaction. Nous avons considéré trois problèmes de complexité croissante et montré qu'ils admettaient des solutions algorithmiques connexionnistes : 1) L'apprentissage par renforcement dans un petit espace d'états : nous nous appuyons sur un algorithme de la littérature pour construire un réseau connexionniste ; les paramètres du problème sont stockés par les poids des unités et des connexions et le calcul du plan est le résultat d'une activité distribuée dans le réseau. 2) L'apprentissage d'une représentation pour approximer un problème d'apprentissage par renforcement ayant un grand espace d'états : nous automatisons le procédé consistant à construire une partition de l'espace d'états pour approximer un problème de grande taille. 3) L'auto-organisation en modules spécialisés pour approximer plusieurs problèmes d'apprentissage par renforcement ayant un grand espace d'états : nous proposons d'exploiter le principe \"diviser pour régner\" et montrons comment plusieurs tâches peuvent être réparties efficacement sur un petit nombre de modules fonctionnels spécialisés.",
+    "uri": "https://theses.hal.science/tel-00003377v1"
+  },
+  {
+    "title": "Tri-apprentissage génératif : génération de données pour de la reconnaissance d'entitées nommées semi-supervisé",
+    "authors": [
+      "Hugo Boulanger",
+      "Thomas Lavergne",
+      "Sophie Rosset"
+    ],
+    "year": 2023,
+    "abstract": "Le développement de solutions de traitement automatique de la langue pour de nouvelles tâches nécessite des données, dont l'obtention est coûteuses. L'accès aux données peut être limité en raison de la nature sensible des données. La plupart des travaux récents ont exploité de grands modèles pré-entraînés pour initialiser des versions spécialisées de ceux-ci. La spécialisation d'un tel modèle nécessite toujours une quantité élevée de données étiquetées spécifiques à la tâche cible. Nous utilisons l'apprentissage semi-supervisé pour entraîner des modèles dans un contexte où le nombre d'exemples étiquetés est limité et le nombre de données non étiquetées est nul. Nous étudions plusieurs méthodes pour générer le corpus non étiqueté nécessaire à l'utilisation de l'apprentissage semi-supervisé. Nous introduisons les méthodes de génération entre les épisodes d'entraînement et utilisons les modèles entraînés pour filtrer les exemples générés. Nous testons cette génération avec le tri-apprentissage et l'auto-apprentissage sur des corpus Anglais et Français.",
+    "uri": "https://hal.science/hal-04130130v1"
+  },
+  {
+    "title": "Détection de l'état de surface de la route pour un véhicule autonome par un système NIR LED et des approches d'apprentissage automatique",
+    "authors": [
+      "Hongyi Zhang"
+    ],
+    "year": 2022,
+    "abstract": "Le domaine des véhicules autonomes a suscité un grand intérêt ces dernières années. Afin de garantir au passager une expérience sûre et confortable sur les véhicules autonomes, des systèmes d'obstacles avancés doivent être mis en œuvre. Bien que les solutions actuelles de détection d'obstacles aient montré de bonnes performances, elles doivent être encore améliorées pour une sécurité accrue des véhicules autonomes sur route, de jour comme de nuit. En particulier, les véhicules autonomes dans la vie réelle peuvent rencontrer de la glace, de la neige ou des flaques d'eau, qui peuvent être la cause de collisions graves et d'accidents de la circulation. Les systèmes de détection doivent donc permettre de détecter les changements d'état de la route pour anticiper la réaction du véhicule et/ou désactiver les fonctions automatisées. L'objectif de cette thèse est de proposer un système pour les véhicules autonomes afin de détecter les conditions de chaussée induites par la météo. Après une étude approfondie de l'état de l'art, un système proche infrarouge (NIR) basé sur des LED et un système d'apprentissage automatique sont proposés pour la détection diurne et nocturne. Le système NIR a été conçu puis validé expérimentalement et, les spécifications techniques du système ont été définies. Le système d'apprentissage automatique est de plus proposé comme solution complémentaire au système NIR. Différents modèles d'apprentissage ont été testés et comparés en termes de performance. Enfin, les résultats sont discutés et une combinaison des deux systèmes est proposée afin de garantir une performance accrue pour la reconnaissance des conditions de route.",
+    "uri": "https://hal.science/tel-04515266v1"
+  },
+  {
+    "title": "L'apprentissage automatique à la rescousse de la relation client : vers un modèle de compréhension polyvalente de messages clients",
+    "authors": [
+      "Octavia Efraim"
+    ],
+    "year": 2019,
+    "abstract": "",
+    "uri": "https://hal.science/hal-02498277v1"
+  },
+  {
+    "title": "Apprentissage automatique et acquisition des connaissances : deux approches complémentaires pour les systèmes à base de connaissances. Application au système \"ACASYA\" d'aide à la certification des systèmes de transport automatisés",
+    "authors": [
+      "Habib Hadj-Mabrouk"
+    ],
+    "year": 1992,
+    "abstract": "Ce mémoire de thèse de Doctorat présente une contribution à l'amélioration des méthodes usuelles d'analyse de sécurité employées dans le cadre de la certification des systèmes de transport automatisés (STA). La mission des experts de certification consiste à apprécier le caractère sécuritaire d'un nouveau STA en évaluant la complétude des scénarios d'accidents envisagés dans l'étude de sécurité du constructeur. La méthodologie d'aide à la certification développée repose sur l'utilisation conjointe et complémentaire de l'acquisition des connaissances et de l'apprentissage automatique. La méthode d'acquisition de connaissances choisie s'est révélée efficace pour extraire et formaliser les connaissances historiques d'analyse de sécurité mais insuffisante pour acquérir en détail la démarche experte de certification qui est fortement intuitive et évolutive. Pour pallier cette lacune, notre étude s'est orientée vers l'utilisation des techniques d'apprentissage automatique. La difficulté de définir et choisir un système d'apprentissage adapté aux exigences d'une application industrielle nous a conduits à proposer une caractérisation du processus d'apprentissage. ACASYA est l'environnement logiciel développé pour supporter la méthodologie d'aide à la certification. Il est composé de deux modules principaux: CLASCA et EVALSCA, respectivement dédiés à la classification et à l'évaluation des scénarios d'accidents. CLASCA que nous avons entièrement conçu est un système d'apprentissage symbolique-numérique, inductif, incrémental, non monotone et interactif. EVALSCA, développé autour du système d'apprentissage de règles CHARADE, a pour objectif de suggérer aux experts de certification d'éventuelles pannes non considérées par le constructeur et susceptibles de mettre en défaut la sécurité d'un nouveau STA. A ce jour, ACASYA a prouvé l'intérêt de la méthodologie pour formaliser, exploiter et pérenniser le savoir faire de l'expert de certification, en vue de tendre vers l'exhaustivité de l'analyse de sécurité. Par opposition aux systèmes d'aide au diagnostic, ACASYA peut être perçu comme un outil d'aide à la prévention des pannes, situé en aval des méthodes prévisionnelles classiques d'analyse de sécurité.",
+    "uri": "https://hal.science/tel-03020419v1"
+  },
+  {
+    "title": "Apprentissage de règles de réactions biochimiques à partir de propriétés en logique temporelle",
+    "authors": [
+      "Laurence Calzone",
+      "Nathalie Chabrier-Rivier",
+      "Francois Fages",
+      "Sylvain Soliman"
+    ],
+    "year": 2005,
+    "abstract": "Avec le développement de langages formels pour modéliser les systèmes d' interactions biomoléculaires, la possibilité d'effectuer des calculs symboliques au delà des simulations numér iques ouvre la voie à la conception de nouveaux outils de raisonnement automatique destinés au biologiste modélisateur. La machine abstraite biochimique BIOCHAM est un environnement logiciel qui offre un langage simple de règles pour modéliser les interactions biomoléculaires et un langage original fondé sur la logique temporelle pour formaliser les propriétés biologiques du système. En s'appuyant sur ces deux langages formels, il devient possible d'utiliser des techniques d'apprentissage automatique pour inférer de nouvelles règles de réaction moléculaire à partir de propriétés temporelles observées. Dans ce contexte, le but est de corriger ou compléter les modèles BIOCHAM semi-automatiquement. Dans cet article, nous décrivons le système d'apprentissage automatique de BIOCHAM, qui permet, d'une part, de trouver de nouvelles règles d'interaction à partir d' un modèle partiel et de contraintes exprimées en logique temporelle, et d'autre part, d'estimer les valeurs de paramètres cinétiques à partir de propriétés formalisées en logique temporelle avec contraintes numériques sur les concentrations ou leurs dérivées.",
+    "uri": "https://inria.hal.science/inria-00000813v1"
+  },
+  {
+    "title": "Enseignement de l’apprentissage automatique à destination d’ingénieur·e·s généralistes",
+    "authors": [
+      "Frédéric Sur"
+    ],
+    "year": 2023,
+    "abstract": "L’apprentissage automatique est la discipline scientifique au cœur des récents et fulgurants succès de l’intelligence artificielle dans de nombreux domaines. Dans cet article, nous proposons un retour d’expérience sur l’enseignement de l’apprentissage automatique à destination d’ingénieur·e·s généralistes, dans le cadre d’un cours de tronc commun scientifique de la formation « Ingénieur Civil des Mines » de l’École des Mines de Nancy. L’objectif est de proposer un cours pertinent pour les élèves-ingénieur·e·s quel que soit le département scientifique choisi, grâce auquel ils et elles sauront mettre en application les principaux modèles d’apprentissage sur des données réelles variées et s’appuyer sur leur compréhension des fondements de la discipline pour identifier les limites pratiques, tout en ayant conscience des questions éthiques potentiellement soulevées.",
+    "uri": "https://hal.science/hal-04213203v1"
+  },
+  {
+    "title": "Apprentissage multi-vue de co-similarités pour la classification",
+    "authors": [
+      "Gilles Bisson",
+      "Clément Grimal"
+    ],
+    "year": 2012,
+    "abstract": "En classification, les données se présentent souvent sous la forme d'une matrice de données unique [objets/caractéristiques]. Cependant, dans de nombreuses applications, plusieurs types d'objets liés par des relations peuvent exister, ce qui conduit à avoir plusieurs matrices représentant chacune une vue particulière sur les données. C'est le cas dans l'étude des réseaux sociaux ou les différents nœuds d'un graphe d'interaction font intervenir des utilisateurs, des documents, des termes, etc. Dans ce papier, nous introduisons une architecture permettant d'étendre les capacités de l'algorithme de calcul de co-similarité \\x-sim afin de le rendre apte à travailler sur des collections de matrices décrivant les relations entre plusieurs paires d'objets différents (multi-view clustering). Nous montrons que cette architecture offre un cadre formel intéressant et permet de délivrer souvent des résultats supérieurs ou égaux aux approches classiques mono-relation tout en permettant, grâce à une parallélisation possible des calculs, de réduire la complexité en temps et en espace des problèmes traités.",
+    "uri": "https://hal.science/hal-00741470v1"
+  },
+  {
+    "title": "Conférence d'Apprentissage (CAp 2008)",
+    "authors": [
+      "Florence d'Alché-Buc"
+    ],
+    "year": 2008,
+    "abstract": "Ce volume rassemble les actes de la 10ème Conférence d'Apprentissage (CAp 2008) qui s'est tenue en France sur l'Ile de Porquerolles du 29 au 31 Mai 2008. L'Apprentissage Automatique, à la croisée de plusieurs disciplines, offre un cadre théorique et méthodologique pour l'inférence à partir de données. Depuis les années 80 où cette spécialité a été identifiée comme un domaine de recherche à part entière, différentes approches ont successivement ou parallèlement permis d'enrichir le bagage du chercheur en Apprentissage Automatique : les réseaux de neurones formels, les outils de la physique statistique, la programmation logique inductive, la théorie PAC de Valiant, la théorie statistique de l'apprentissage de Vapnik, les modèles graphiques, l'inférence grammaticale, les méthodes à noyaux, les méthodes d'ensemble, les méthodes spectrales...",
+    "uri": "https://hal.science/hal-00343081v1"
+  },
+  {
+    "title": "Outils d'exploration de corpus et désambiguïsation lexicale automatique",
+    "authors": [
+      "Laurent Audibert"
+    ],
+    "year": 2003,
+    "abstract": "Ce travail de thèse adresse le problème de la désambiguïsation lexicale automatique à l'aide de méthodes d'apprentissage supervisé. Dans une première partie, nous proposons un ensemble de puissants outils de manipulation de corpus linguistiques étiquetés. Pour réaliser ces outils, nous avons développé une bibliothèque C++ qui implémente un langage élaboré et expressif d'interrogation de corpus, basé sur des méta-expressions régulières. Dans une seconde partie, nous comparons divers algorithmes d'apprentissage supervisé, que nous utilisons ensuite pour mener à bien une étude systématique et approfondie de différents critères de désambiguïsation, basés sur la cooccurrence de mots et plus généralement de n-grammes. Nos résultats vont parfois à l'encontre de certaines pratiques dans le domaine. Par exemple, nous montrons que la suppression des mots grammaticaux dégrade les performances et que les bigrammes permettent d'obtenir de meilleurs résultats que les unigrammes.",
+    "uri": "https://theses.hal.science/tel-00004475v1"
+  },
+  {
+    "title": "Apprentissage d'espaces prétopologiques pour l'extraction de connaissances structurées",
+    "authors": [
+      "Gaëtan Caillaut"
+    ],
+    "year": 2019,
+    "abstract": "La prétopologie est une théorie mathématique visant à relaxer les axiomes régissant la théorie, bien connue, de la topologie. L'affaiblissement de cette axiomatique passe principalement par la redéfinition de l'opérateur d'adhérence qui, en topologie, est idempotent. La non-idempotence de l'opérateur d'adhérence prétopologique offre un cadre de travail plus pertinent pour la modélisation de phénomènes variés, par exemple des processus itératifs évoluant au cours du temps. La prétopologie est le fruit de la généralisation de plusieurs concepts, parmi lesquels la topologie mais aussi la théorie des graphes. Cette thèse comprend quatre parties majeures. La première partie consiste en une introduction du cadre théorique de la prétopologie puis à une mise en lumière de plusieurs applications de la prétopologie dans des domaines tels que l'apprentissage automatique, l'analyse d'images ou encore l'étude des systèmes complexes. La seconde partie permettra de poser et de définir la modélisation logique et multi-critères d'un espace prétopologique sur laquelle est basée cette thèse. Cette modélisation permet de définir des algorithmes d'apprentissage automatique de règles logiques afin de construire des espaces prétopologiques. Cette partie se focalisera sur l'apprentissage d'espaces prétopologiques non-restreints. L'étude des espaces prétopologiques non-restreints peut s'avérer incommode, notamment lorsque la population étudiée exhibe certaines propriétés structurelles pouvant être décrites dans un espace plus restreint et plus simple à appréhender. C'est pourquoi la troisième partie est dédiée à l'apprentissage d'espaces prétopologiques de type V. Ces espaces sont définis par une famille de préfiltres, ce qui impose une structure particulière. La méthode d'apprentissage, LPSMI, présentée dans cette partie, qui constitue la contribution majeure de cette thèse, tient compte de cette structure si particulière en exploitant le concept d'apprentissage multi-instances. Enfin la dernière partie décrit plusieurs cas d'applications du cadre théorique proposé dans cette thèse. Ainsi, des applications à l'extraction de taxonomies lexicales, à la détection de communautés ainsi qu'à l'ordonnancement d'évènements temporels sont présentées et permettent de montrer l'intérêt, la souplesse et la pertinence de la prétopologie et de l'apprentissage d'espaces prétopologiques dans des domaines variés.",
+    "uri": "https://hal.science/tel-03625475v1"
+  },
+  {
+    "title": "Apprentissage sur corpus de relations lexicales sémantiques - La linguistique et l'apprentissage au service d'applications du traitement automatique des langues",
+    "authors": [
+      "Pascale Sébillot"
+    ],
+    "year": 2002,
+    "abstract": "Le document présente une synthèse des recherches que nous avons menées sur le thème de l'acquisition de ressources lexicales à partir de corpus textuels. Plus particulièrement, ces travaux portent sur le développement de méthodes d'apprentissage automatique de relations lexicales sémantiques, ayant pour objectif d'enrichir la description de mots dans une double optique de désambiguïsation et de traitement de variantes sémantiques intra- et intercatégorielles, et susceptibles d'être utilisées au sein de différentes applications (recherche d'information, filtrage...). Nos études se caractérisent particulièrement par le fort couplage que nous recherchons entre les méthodes d'apprentissage développées et des théories linguistiques. Ces théories nous servent de cadres pour déterminer les relations lexicales pertinentes, valider ce qui est acquis, voire mettre au point la méthode d'apprentissage nécessaire à cette acquisition; de plus, les éléments appris doivent être linguistiquement motivés et significatifs. Ainsi, nous décrivons comment, en nous positionnant dans le cadre de la sémantique interprétative de F. Rastier, nous cherchons à apprendre, par des méthodes statistiques (en particulier de classification ascendante hiérarchique), des liens paradigmatiques intracatégoriels - antonymie, synonymie..., mais aussi d'autres liens plus fins de type sémique - à partir de corpus non spécialisés. D'autre part, nous expliquons comment, en contrôlant leur pertinence grâce au formalisme du Lexique génératif de J. Pustejovsky, nous acquérons par de l'apprentissage symbolique de type programmation logique inductive des liens transcatégoriels nomino-verbaux. Parmi les perspectives évoquées en conclusion, nous abordons en particulier les questions soulevées lorsque l'on s'intéresse à l'insertion des relations acquises dans un système de recherche d'information pour reformuler des requêtes, ainsi que celles concernant l'évaluation des apports de ces ressources lexicales. Nous discutons également de la pertinence de l'utilisation de méthodes d'apprentissage explicative pour acquérir des informations en corpus.",
+    "uri": "https://theses.hal.science/tel-00533657v1"
+  },
+  {
+    "title": "Apprentissage automatique profond et données géologiques : vers des assistants numériques intelligents pour les géosciences ?",
+    "authors": [
+      "Antoine Bouziat",
+      "François Cokelaer",
+      "Renaud Divies",
+      "Sylvain Desroziers",
+      "Mathieu Feraille"
+    ],
+    "year": 2021,
+    "abstract": "",
+    "uri": "https://hal.science/hal-03588997v1"
+  },
+  {
+    "title": "Méta-apprentissage pour l'analyse AMR translingue",
+    "authors": [
+      "Jeongwoo Kang",
+      "Maximin Coavoux",
+      "Cédric Lopez",
+      "Didier Schwab"
+    ],
+    "year": 2024,
+    "abstract": "L’analyse AMR multilingue consiste à prédire des analyses sémantiques AMR dans une langue cible lorsque les données d’entraînement ne sont disponibles que dans une langue source. Cette tâche n’a été étudiée que pour un petit nombre de langues en raison du manque de données multilingues. En s’inspirant de Langedijk et al. (2022), qui appliquent le méta-apprentissage à l’analyse syntaxique en dépendances translingue, nous étudions le méta-apprentissage pour l’analyse AMR translingue. Nous évaluons nos modèles dans des scénarios zero-shot et few-shot en croate, en farsi, en coréen, en chinois et en français. En particulier, nous développons dans le cadre de cet article des données d’évaluation en coréen et en croate, à partir du corpus AMR anglais Le Petit Prince. Nous étudions empiriquement cette approche en la comparant à une méthode classique d’apprentissage conjoint.",
+    "uri": "https://inria.hal.science/hal-04623014v1"
+  },
+  {
+    "title": "Méthode de suppression de cas pour une maintenance de base de cas.",
+    "authors": [
+      "Mohamed-Karim Haouchine",
+      "Brigitte Chebel-Morello",
+      "Noureddine Zerhouni"
+    ],
+    "year": 2006,
+    "abstract": "Nous vous présentons un début de travail concernant la maintenance de la base de cas. Après un état de l'art des travaux fait dans le domaine, nous sommes amenés à faire deux propositions que nous n'avons pas encore exploitées. Une solution sur la suppression de cas et une autre en utilisant les outils d'apprentissage automatique, sachant que nous pouvons modéliser notre base de cas sous forme d'exemples. La proposition se fait sur deux niveaux, sur des travaux d'apprentissage automatique et sur l'élaboration d'une nouvelle mesure.",
+    "uri": "https://hal.science/hal-00339349v1"
+  },
+  {
+    "title": "Apprentissage sur corpus de relations lexicales sémantiques - La linguistique et l'apprentissage au service d'applications du traitement automatique des langues",
+    "authors": [
+      "Pascale Sébillot"
+    ],
+    "year": 2002,
+    "abstract": "Le document présente une synthèse des recherches que nous avons menées sur le thème de l'acquisition de ressources lexicales à partir de corpus textuels. Plus particulièrement, ces travaux portent sur le développement de méthodes d'apprentissage automatique de relations lexicales sémantiques, ayant pour objectif d'enrichir la description de mots dans une double optique de désambiguïsation et de traitement de variantes sémantiques intra- et intercatégorielles, et susceptibles d'être utilisées au sein de différentes applications (recherche d'information, filtrage...). Nos études se caractérisent particulièrement par le fort couplage que nous recherchons entre les méthodes d'apprentissage développées et des théories linguistiques. Ces théories nous servent de cadres pour déterminer les relations lexicales pertinentes, valider ce qui est acquis, voire mettre au point la méthode d'apprentissage nécessaire à cette acquisition; de plus, les éléments appris doivent être linguistiquement motivés et significatifs. Ainsi, nous décrivons comment, en nous positionnant dans le cadre de la sémantique interprétative de F. Rastier, nous cherchons à apprendre, par des méthodes statistiques (en particulier de classification ascendante hiérarchique), des liens paradigmatiques intracatégoriels - antonymie, synonymie..., mais aussi d'autres liens plus fins de type sémique - à partir de corpus non spécialisés. D'autre part, nous expliquons comment, en contrôlant leur pertinence grâce au formalisme du Lexique génératif de J. Pustejovsky, nous acquérons par de l'apprentissage symbolique de type programmation logique inductive des liens transcatégoriels nomino-verbaux. Parmi les perspectives évoquées en conclusion, nous abordons en particulier les questions soulevées lorsque l'on s'intéresse à l'insertion des relations acquises dans un système de recherche d'information pour reformuler des requêtes, ainsi que celles concernant l'évaluation des apports de ces ressources lexicales. Nous discutons également de la pertinence de l'utilisation de méthodes d'apprentissage explicative pour acquérir des informations en corpus.",
+    "uri": "https://theses.hal.science/tel-00533657v1"
+  },
+  {
+    "title": "Nouvelles contributions du boosting en apprentissage automatique",
+    "authors": [
+      "Henri-Maxime Suchier"
+    ],
+    "year": 2006,
+    "abstract": "L'apprentissage automatique vise la production d'une hypothèse modélisant un concept à partir d'exemples, dans le but notamment de prédire si de nouvelles observations relèvent ou non de ce concept. Parmi les algorithmes d'apprentissage, les méthodes ensemblistes combinent des hypothèses de base (dites ``faibles'') en une hypothèse globale plus performante. Le boosting, et son algorithme AdaBoost, est une méthode ensembliste très étudiée depuis plusieurs années : ses performances expérimentales remarquables reposent sur des fondements théoriques rigoureux. Il construit de manière adaptative et itérative des hypothèses de base en focalisant l'apprentissage, à chaque nouvelle itération, sur les exemples qui ont été difficiles à apprendre lors des itérations précédentes. Cependant, AdaBoost est relativement inadapté aux données du monde réel. Dans cette thèse, nous nous concentrons en particulier sur les données bruitées, et sur les données hétérogènes. Dans le cas des données bruitées, non seulement la méthode peut devenir très lente, mais surtout, AdaBoost apprend par coeur les données, et le pouvoir prédictif des hypothèses globales générées, s'en trouve extrêmement dégradé. Nous nous sommes donc intéressés à une adaptation du boosting pour traiter les données bruitées. Notre solution exploite l'information provenant d'un oracle de confiance permettant d'annihiler les effets dramatiques du bruit. Nous montrons que notre nouvel algorithme conserve les propriétés théoriques du boosting standard. Nous mettons en pratique cette nouvelle méthode, d'une part sur des données numériques, et d'autre part, de manière plus originale, sur des données textuelles. Dans le cas des données hétérogènes, aucune adaptation du boosting n'a été proposée jusqu'à présent. Pourtant, ces données, caractérisées par des attributs multiples mais de natures différentes (comme des images, du son, du texte, etc), sont extrêmement fréquentes sur le web, par exemple. Nous avons donc développé un nouvel algorithme de boosting permettant de les utiliser. Plutôt que de combiner des hypothèses boostées indépendamment, nous construisons un nouveau schéma de boosting permettant de faire collaborer durant l'apprentissage des algorithmes spécialisés sur chaque type d'attribut. Nous prouvons que les décroissances exponentielles des erreurs sont toujours assurées par ce nouveau modèle, aussi bien d'un point de vue théorique qu'expérimental.",
+    "uri": "https://theses.hal.science/tel-00379539v1"
+  },
+  {
+    "title": "Application d’algorithmes de machine learning pour l’exploitation de données omiques en oncologie",
+    "authors": [
+      "Jocelyn Gal"
+    ],
+    "year": 2019,
+    "abstract": "Le développement de l’informatique en médecine et en biologie a permis de générer un grand volume de données. La complexité et la quantité d’informations à intégrer lors d’une prise de décision médicale ont largement dépassé les capacités humaines. Ces informations comprennent des variables démographiques, cliniques ou radiologiques mais également des variables biologiques et en particulier omiques (génomique, protéomique, transcriptomique et métabolomique) caractérisées par un grand nombre de variables mesurées relativement au faible nombre de patients. Leur analyse représente un véritable défi dans la mesure où elles sont fréquemment « bruitées » et associées à des situations de multi-colinéarité. De nos jours, la puissance de calcul permet d'identifier des modèles cliniquement pertinents parmi cet ensemble de données en utilisant des algorithmes d’apprentissage automatique. A travers cette thèse, notre objectif est d’appliquer des méthodes d’apprentissage supervisé et non supervisé, à des données biologiques de grande dimension, dans le but de participer à l’optimisation de la classification et de la prise en charge thérapeutique des patients atteints de cancers. La première partie de ce travail consiste à appliquer une méthode d’apprentissage supervisé à des données d’immunogénétique germinale pour prédire l’efficacité thérapeutique et la toxicité d’un traitement par inhibiteur de point de contrôle immunitaire. La deuxième partie compare différentes méthodes d’apprentissage non supervisé permettant d’évaluer l’apport de la métabolomique dans le diagnostic et la prise en charge des cancers du sein en situation adjuvante. Enfin la troisième partie de ce travail a pour but d’exposer l’apport que peuvent présenter les essais thérapeutiques simulés en recherche biomédicale. L’application des méthodes d’apprentissage automatique en oncologie offre de nouvelles perspectives aux cliniciens leur permettant ainsi de poser des diagnostics plus rapidement et plus précisément, ou encore d’optimiser la prise en charge thérapeutique en termes d’efficacité et de toxicité.",
+    "uri": "https://theses.hal.science/tel-03917512v1"
+  },
+  {
+    "title": "Méta-apprentissage pour l'analyse AMR translingue",
+    "authors": [
+      "Jeongwoo Kang",
+      "Maximin Coavoux",
+      "Cédric Lopez",
+      "Didier Schwab"
+    ],
+    "year": 2024,
+    "abstract": "L’analyse AMR multilingue consiste à prédire des analyses sémantiques AMR dans une langue cible lorsque les données d’entraînement ne sont disponibles que dans une langue source. Cette tâche n’a été étudiée que pour un petit nombre de langues en raison du manque de données multilingues. En s’inspirant de Langedijk et al. (2022), qui appliquent le méta-apprentissage à l’analyse syntaxique en dépendances translingue, nous étudions le méta-apprentissage pour l’analyse AMR translingue. Nous évaluons nos modèles dans des scénarios zero-shot et few-shot en croate, en farsi, en coréen, en chinois et en français. En particulier, nous développons dans le cadre de cet article des données d’évaluation en coréen et en croate, à partir du corpus AMR anglais Le Petit Prince. Nous étudions empiriquement cette approche en la comparant à une méthode classique d’apprentissage conjoint.",
+    "uri": "https://inria.hal.science/hal-04623014v1"
+  },
+  {
+    "title": "Optimisation de contrôleurs par essaim particulaire",
+    "authors": [
+      "Jérémy Fix",
+      "Matthieu Geist"
+    ],
+    "year": 2012,
+    "abstract": "Trouver des contrôleurs optimaux pour des systèmes stochastiques est un problème particulièrement difficile abordé dans les communautés d'apprentissage par renforcement et de contrôle optimal. Le paradigme classique employé pour résoudre ces problèmes est celui des processus décisionnel de Markov. Néanmoins, le problème d'optimisation qui en découle peut être difficile à résoudre. Dans ce papier, nous explorons l'utilisation de l'optimisation par essaim particulaire pour apprendre des contrôleurs optimaux. Nous l'appliquons en particulier à trois problèmes classiques : le pendule inversé, le mountain car et le double pendule.",
+    "uri": "https://centralesupelec.hal.science/hal-00701945v1"
+  },
+  {
+    "title": "Livre Libre, moteur de recherche spécialisé",
+    "authors": [
+      "Isabelle Audras",
+      "Jean-Gabriel Ganascia"
+    ],
+    "year": 2004,
+    "abstract": "",
+    "uri": "https://hal.science/hal-01520492v1"
+  },
+  {
+    "title": "Apprentissage automatique d'une distance d'édition dédiée à la reconnaissance de l'écriture manuscrite",
+    "authors": [
+      "Sabine Carbonnel",
+      "Eric Anquetil"
+    ],
+    "year": 2004,
+    "abstract": "Ce travail s'inscrit dans le cadre d'un posttraitement lexical basé à la fois sur une organisation structur ée de dictionnaire (à partir de caractéristiques globales des mots) et sur un algorithme d'appariement de mots spécifique à l'écriture manuscrite en-ligne (distance d'édition). L'objectif est de compenser les erreurs de reconnaissance et de segmentation en s'appuyant sur les informations lexicales extraites d'un dictionnaire. Pour cela nous avons adapté une distance d'édition à l'écriture manuscrite pour le post-traitement lexical en reconnaissance en-ligne de mots. Cet article présente une méthode d'apprentissage automatique de la distance d'édition. L'objectif est de pouvoir automatiquement spécialiser la distance d'édition en fonction des propriétés du reconnaisseur. Les résultats expérimentaux obtenus montrent que l'approche proposée pour adapter automatiquement la distance d'édition obtient d'aussi bons résultats qu'une distance d'édition calibrée empiriquement à la main de fac¸on longue et fastidieuse.",
+    "uri": "https://archivesic.ccsd.cnrs.fr/sic_00001198v1"
+  },
+  {
+    "title": "Recherche d'architecture de réseaux de neurones pour la classification extrême et dans un contexte d'apprentissage partiellement étiqueté",
+    "authors": [
+      "Loïc Pauletto"
+    ],
+    "year": 2022,
+    "abstract": "Les applications d'apprentissage profond se développent rapidement et ne montrent aucun signe de ralentissement. Les topologies des réseaux neuronaux deviennent de plus en plus grandes et complexes pour résoudre les problèmes de la vie réelle.Cette complexité accrue nécessite plus de temps et d'expertise de la part des professionnels, ainsi qu'un investissement financier important pour les entreprises d'IA.La recherche d'architecture neuronale (RAN) est un nouveau paradigme d'apprentissage automatique qui cherche à déterminer la meilleure architecture de réseau neuronal pour un problème donné. Les techniques de RNA, d'autre part, n'ont été étudiées et développées que dans des problèmes d'apprentissage automatique limités et bien définis, qui ne sont pas représentatifs de tous les scénarios d'apprentissage automatique existants.Cette thèse se concentre sur la recherche et le développement des approches RAN pour de nouvelles tâches ainsi que sur un nouveau cadre d'apprentissage qui est plus pertinent pour les applications du monde réel.Nous avons proposé d'utiliser un cadre RAN neuro-évolutif pour résoudre le défi extrême de la classification multi-label en particulier.Nous avons combiné des réseaux de convolution et récurrents pour fournir une recherche spatiale plus appropriée à cette tâche.Sur plusieurs jeux de données, nous évaluons la performance du réseau recherché. Nous avons également examiné le défi de la reconstruction d'une carte RSSI, qui est un processus plus difficile en raison du manque de données d'entrée(c'est-à-dire données partiellement annotées). De cette façon, nous proposons un système de recherche d'architecture dynamique pour les tâches de segmentation sémantique avec un nombre minimal d'échantillons annotés. Nous avons étudié plusieurs algorithmes d'apprentissage semi-supervisé dans ce cadre afin de déterminer celui qui réussit le mieux à utiliser des échantillons non étiquetés.Nous avons examiné un certain nombre de stratégies, y compris des approches de semi-supervision \"traditionnelles\" et \"nouvelles\", ainsi que des approches d'auto-supervision.",
+    "uri": "https://theses.hal.science/tel-03921641v1"
+  },
+  {
+    "title": "Veille d'Information sur le Web avec Re-Watch",
+    "authors": [
+      "Christophe Brouard",
+      "Christian Pomot"
+    ],
+    "year": 2017,
+    "abstract": "Les algorithmes d’apprentissage automatique peuvent être utilisés pour créer des outils de recommandation qui permettent de prédire la pertinence d’un document pour une thématique de veille donnée en se basant sur les précédents jugements de pertinence donnés pour cette thématique pour d’autres documents. Ces outils de recommandation permettent de filtrer dans un flux entrant de documents ceux qui sont susceptibles d’être pertinents sans que l’utilisateur ait besoin de déterminer lui-même les mots clefs marquant l’adéquation d’un document pour un sujet de la veille. Bien que cette problématique de recherche ait été abondamment abordée, les outils de veille d’information pour le web intégrant un apprentissage en sont encore à leur balbutiements. Nous présentons ici l’application web Re-Watch permettant la définition d’un thème de veille, la sélection de sources d’information sur le web relatives à ce thème et l’adaptation des scores de pertinence des documents aux retours de l’utilisateur. L’application permet aussi, pour chaque thème, une auto-évaluation de la qualité du filtrage et une interrogation du moteur de recherche Google. Cette application encore en cours de développement est néanmoins actuellement fonctionnelle et accessible sur le web à l’url suivante : http://www.specific search.com.",
+    "uri": "https://hal.science/hal-01657537v1"
+  },
+  {
+    "title": "Modélisation stochastique d'une population de neurones, méta-apprentissage dans un problème de classification",
+    "authors": [
+      "Bruno Scherrer",
+      "Frédéric Alexandre",
+      "François Charpillet",
+      "Stéphane Vialle"
+    ],
+    "year": 2000,
+    "abstract": "La modélisation stochastique d'une population de neurones peut s'inspirer de l'étude générale de populations d'entités en interactions. l'étude stochastique de telles populations d'agents a été abordée par une famille de méthodes dérivées de la recherche opérationnelle et de récents travaux concernant l'apprentissage par renforcement dans de tels systèmes peuvent servir d'outil pour la modélisation de neurones en interaction. Nous présentons un cadre générique d'étude stochastique d'agents partageant un environnement et une méthode d'apprentissage par renforcement qui lui est associée. Nous exposons ensuite l'état actuel de nos recherches concernant des possibles adaptations au paradigme neuronal pour un problème de classification.",
+    "uri": "https://inria.hal.science/inria-00099114v1"
+  },
+  {
+    "title": "Constitution de Corpus d'Apprentissage et étiquetage simple sur des blogues interculturels",
+    "authors": [
+      "Mario Laurent",
+      "Thierry Chanier"
+    ],
+    "year": 2012,
+    "abstract": "Au cours de nos travaux de recherche en EIAH (Environnements informatiques pour l'apprentissage humain), nous avons besoin d'analyser des formations en ligne afin de répondre à plusieurs questions : la formation a-t-elle été efficace, les apprenants ont-ils interagi et comment l'ont-ils fait ? Pour ce faire, nous recueillons les traces des interactions, l'ensemble des ressources et les métadonnées associées à une formation donnée. Ensuite, nous les organisons, de façon systématique au sein de structures appelées corpus d'apprentissage ou LETEC (LEarning and TEaching Corpus). Ces LETEC sont stockés dans la banque de corpus en ligne Mulce (MUltimodal contextualized Learner Corpus Exchange). Nous souhaitons mettre en évidence l'importance de cette structuration et les possibilités d'analyses qui en découlent notamment en utilisant des stratégies de TAL (Traitement Automatique du Langage). Nous prenons ici l'exemple d'un étiquetage automatique simple des messages issus des blogues de la formation Infral qui est le sujet d'un des LETEC de la banque de corpus Mulce.",
+    "uri": "https://edutice.hal.science/edutice-00693470v2"
+  },
+  {
+    "title": "Apprentissage croisé en reconnaissance analytique de l'écriture manuscrite",
+    "authors": [
+      "Christophe Choisy",
+      "Abdel Belaïd"
+    ],
+    "year": 2000,
+    "abstract": "Ce papier présente une méthode d'apprentissage croisé de lettres dans le cadre d'une approche analytique de reconnaissance de mots. Les mots sont représentés par des hmms où chaque état représente une lettre. Chaque lettre est décrite par un champ de Markov causal. La génération des modèles de mots est obtenue par fusion des modèles de lettres. La réestimation des paramètres de ces modèles, objet de cet article, est réalisée au travers de l'apprentissage des modèles de lettres et des transitions des hmms représentant les mots. l'apprentissage des lettres se fait par croisement des paramètres extraits des différents modèles des mots les contenant, de manière à exploiter tous les contextes d'écriture possibles de ces lettres. l'utilisation de l'algorithme de Baum-Welch permet une réestimation optimale de ces paramètres tout en supprimant la nécessité d'une segmentation. Les transitions des hmms représentant les mots sont également réestimées à l'aide des informations des modèles générés. Les premiers tests, effectués sur 7031 mots de montants de chèques fournis par la SRTP (2/3 en apprentissage, 1/3 en reconnaissance), donnent un taux de reconnaissance de 83.4%.",
+    "uri": "https://inria.hal.science/inria-00099039v1"
+  },
+  {
+    "title": "Apprentissage des Mouvements Humain en Situation Informatisée: Avantages, Limites et Perspectives Apportées par l'Approche Automatique",
+    "authors": [
+      "Quentin Couland",
+      "Ludovic Hamon",
+      "Sébastien George"
+    ],
+    "year": 2017,
+    "abstract": "Les applications utilisant les mouvements des utilisateurs afin de renforcer la construction des connaissances et d'améliorer l'immersion, sont de plus en plus utilisées dans des domaines tels que le sport, la chirurgie ou l'éducation. Actuellement, les informations sur les actions, intentions, situations et comportements, sont rarement extraites à partir de données de mouvement 3D. Cela peut être expliqué par l'hétérogénéité, la complexité et la grande dimensionnalité de ces informations d’une part et leurs corrélations avec les besoins d’observation des enseignants d’autre part. Cependant, les méthodes de traitement automatique (machine learning) pourraient être utilisées afin de surmonter ces contraintes. Une meilleure analyse de ces données pourrait être obtenue pour mieux modéliser le comportement de l’apprenant lors de la situation d’apprentissage. Cet article introduit les défis propres à ces problèmes et propose un système d'aide à l'analyse des mouvements humains.",
+    "uri": "https://hal.science/hal-01713082v1"
+  },
+  {
+    "title": "Actes des 21es Rencontres des Jeunes Chercheurs en Intelligence Artificielle",
+    "authors": [
+      "Brian Ravenet"
+    ],
+    "year": 2023,
+    "abstract": "",
+    "uri": "https://ut3-toulouseinp.hal.science/hal-04565426v1"
+  },
+  {
+    "title": "Inférence grammaticale régulière : fondements théoriques et principaux algorithmes",
+    "authors": [
+      "Pierre Dupont",
+      "Laurent Miclet"
+    ],
+    "year": 1998,
+    "abstract": "L'objet de cette étude est l'apprentissage automatique d'une grammaire formelle à partir d'exemples. En particulier, nous nous concentrons sur l'inférence de grammaires régulières. Nous proposons une étude détaillée des bases théoriques et de l'espace de recherche de ce problème. Nous y démontrons des propriétés originales définissant un cadre formel et des contraintes pour la consception de nouveaux algorithmes. Ensuite, nous présentons un éventail d'algorithmes d'inférence en comparant la nature des données qu'ils utilisent, leur critère de généralisation et leur complexité calculatoire. Finalement, nous étudions l'inférence régulière sur base d'une présentation séquentielle des données d'apprentissage. Une extension incrémentale d'un algorithme existant est développée. Nous en démontrons la convergence et la complexité théorique.",
+    "uri": "https://inria.hal.science/inria-00073241v1"
+  },
+  {
+    "title": "Problème d'affectation dynamique des emplacements de stockage chez Knapp : vers de l'apprentissage automatique ?",
+    "authors": [
+      "Paul Courtin",
+      "Axel Grimault",
+      "Mehdi Lhommeau",
+      "Jean-Baptiste Fasquel"
+    ],
+    "year": 2020,
+    "abstract": "L’optimisation des performances de préparation des en-trepôts automatisés passe par une affection judicieuse desproduits aux emplacements de stockage. Ce problème d’af-fectation des positions de stockage (SLAP), est générale-ment abordé par les méthodes relevant de la rechercheopérationnelle. Cet article dresse un état de l’art de cetteproblématique en soulignant les liens possibles avec l’ap-prentissage automatique, et des perspectives envisageablesde résolution combinant apprentissage automatique et re-cherche opérationnelle.",
+    "uri": "https://univ-angers.hal.science/hal-02527743v6"
+  },
+  {
+    "title": "Apprentissage par renforcement de modeles de contexte pour l'informatique ambiante",
+    "authors": [
+      "Sofia Zaidenberg"
+    ],
+    "year": 2009,
+    "abstract": "Cette thèse étudie l'acquisition automatique par apprentissage d'un modèle de contexte pour un utilisateur dans un environnement ubiquitaire. Dans un tel environnement, les dispositifs peuvent communiquer et coopérer afin de former un espace informatique cohérent. Certains appareils ont des capacités de perception, utilisées par l'environnement pour détecter la situation - le contexte - de l'utilisateur. D'autres appareils sont capables d'exécuter des actions. La problématique que nous nous sommes posée est de déterminer les associations optimales pour un utilisateur donné entre les situations et les actions. L'apprentissage apparaît comme une bonne approche car il permet de personnaliser l'environnement sans spécification explicite de la part de l'usager. Un apprentissage à vie permet, par ailleurs, de toujours s'adapter aux modifications du monde et des préférences utilisateur. L'apprentissage par renforcement est un paradigme d'apprentissage qui peut être une solution à notre problème, à condition de l'adapter aux contraintes liées à notre cadre d'application.",
+    "uri": "https://theses.hal.science/tel-00497656v1"
+  },
+  {
+    "title": "Analyse automatique d’arguments et apprentissage multi-tâches : un cas d’étude",
+    "authors": [
+      "Jean-Christophe Mensonides",
+      "Sébastien Harispe",
+      "Jacky Montmain",
+      "Véronique Thireau"
+    ],
+    "year": 2022,
+    "abstract": "Nous proposons une étude sur l’analyse automatique d’arguments via des techniques d’apprentissage supervisé exploitant le paradigme de l’apprentissage multi-tâches. Nous définissons pour cela une approche multi-tâches à base d’apprentissage profond que nous évaluons sur un cas d’étude spécifique portant sur l’extraction d’arguments dans un corpus de dissertations. Les résultats obtenus permettent de discuter l’intérêt de définir un modèle multi-tâches unique – optimisé sur différents critères en tirant parti de la diversité des tâches d’apprentissage auxquelles il est confronté – par rapport à un ensemble de classifieurs entraînés de manière indépendante et spécifique. Nous montrons en particulier l’impact de l’ajout de tâches auxiliaires de bas niveau, telles que l’étiquetage morpho-syntaxique et l’analyse de dépendances grammaticales, pour l’obtention de classifieurs multi-tâches performants. Nous observons aussi que l’apprentissage multi-tâches permet l’obtention de modèles efficaces de performances semblables à l’état de l’art pour le cas d’étude traité.",
+    "uri": "https://imt-mines-ales.hal.science/hal-03638222v1"
+  },
+  {
+    "title": "Apprentissage de Fonctions de Classification et d'Ordonnacement avec des Données Partiellement Etiquetées",
+    "authors": [
+      "Massih-Reza Amini"
+    ],
+    "year": 2007,
+    "abstract": "Avec le développement des technologies d'information on assiste depuis quelques années à une nouvelle impulsion pour la conception de nouveaux cadres d'apprentissage automatique. C'est le cas par exemple du paradigme semi-supervisé qui a vu le jour vers la fin des années 90 dans la communauté apprentissage. Les premiers travaux dans ce cadre ont été motivés par le développement du \\textit{web} qui a entraîné une production massive de données textuelles très hétérogènes. Ces masses de données sont généralement livrées sous forme brute, sans étiquetage a priori et pour les exploiter on était alors réduit à utiliser des techniques non-supervisées. Ces approches bien que totalement génériques ne permettent cependant qu'une analyse limitée des informations de contenu et ne répondent pas ainsi aux demandes de nombreuses tâches de Recherche d'Information (RI). L'idée pragmatique développée pour l'apprentissage \\textit{semi-supervisé} était née de la question; \"comment réduire l'effort d'étiquetage et utiliser simultanément une petite quantité de données étiquetée avec la masse de données non-étiquetées pour apprendre?\" Un autre exemple de l'émergence de nouveaux cadres d'apprentissage concerne le développement de méthodes automatiques pour la recherche et l'ordonnancement d'entités d'information sur des corpus de grandes tailles. Récemment beaucoup de travaux se sont intéressés à la formulation des différentes formes de la tâche d'ordonnancement. Ces travaux ont proposé des algorithmes et développé des cadres théoriques pour la prédiction d'ordres totaux ou partiels sur les exemples. La Recherche d'Information est une fois encore le domaine par excellence où les algorithmes d'apprentissage de fonctions d'ordonnancement jouent un rôle prépondérant. Dans notre étude nous nous sommes intéressés à deux cadres d'ordonnancement d'instances et d'alternatives. Dans le premier cas il s'agit d'ordonner les exemples (où instances) d'une collection donnée de façon à ce que les exemples jugés pertinents soient ordonnés au--dessus des exemples non--pertinents et dans le second cas nous cherchons à ordonner les alternatives d'une collection donnée par rapport à chaque exemple d'entrée. Ce mémoire présente mes travaux de recherche depuis ma thèse soutenue en 2001 suivant les deux axes apprentissage semi-supervisé et apprentissage de fonctions d'ordonnancement évoqués plus haut. J'ai commencé à m'intéresser à la problématique d'apprentisage semi-supervisé pour la classification à la fin de ma thèse jusqu'à fin 2003. En 2004 et 2005 j'ai abordé la problématique d'apprentissage supervisé de fonctions d'ordonnancement avec comme application phare le résumé automatique de textes. En 2006 je me suis intéressé à l'apprentissage actif de fonctions d'ordonnancement et nous avons été parmi les premiers à proposer un cadre théorique pour l'apprentissage actif de fonctions d'ordonnancement d'alternatives.",
+    "uri": "https://hal.science/tel-04814059v1"
   }
 ]

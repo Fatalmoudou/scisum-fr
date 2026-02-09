@@ -1,23 +1,23 @@
 import sqlite3
 import re
-from nltk.corpus import stopwords
-from nltk import word_tokenize
+from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from gensim import corpora, models
-import nltk
-
-# Téléchargement stopwords si jamais ce n'est pas fait
-nltk.download("stopwords")
-nltk.download("punkt")
-stop_words = set(stopwords.words("french"))
 
 DB_PATH = "data/db/corpus.db"
+STOPWORDS_PATH = Path("analysis/stopwords_fr.txt")
 
-def clean_text(text):
-    """Nettoyer le texte pour tokenisation"""
-    text = text.lower()
-    text = re.sub(r"[^a-zàâçéèêëîïôûùüÿñæœ\s]", "", text)
-    tokens = word_tokenize(text, language="french")
+_RE_TOKEN = re.compile(r"[a-zàâçéèêëîïôûùüÿñæœ]+", re.IGNORECASE)
+
+
+def load_stopwords():
+    with open(STOPWORDS_PATH, encoding="utf-8") as f:
+        return {line.strip() for line in f if line.strip()}
+
+
+def clean_text(text, stop_words):
+    """Nettoyer le texte pour tokenisation."""
+    tokens = [t.lower() for t in _RE_TOKEN.findall(text)]
     tokens = [t for t in tokens if t not in stop_words and len(t) > 2]
     return tokens
 
@@ -25,12 +25,13 @@ def main():
     # --- Charger les abstracts ---
     conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
-    c.execute("SELECT abstract_clean FROM documents")
+    c.execute("SELECT texte_nettoye FROM documents")
     abstracts = [row[0] for row in c.fetchall()]
     conn.close()
 
     # --- Prétraitement pour LDA ---
-    tokenized_docs = [clean_text(doc) for doc in abstracts]
+    stop_words = load_stopwords()
+    tokenized_docs = [clean_text(doc, stop_words) for doc in abstracts]
 
     # --- Création dictionnaire & corpus pour LDA ---
     dictionary = corpora.Dictionary(tokenized_docs)
