@@ -1,0 +1,1 @@
+Cet article propose une revue bibliographique des principales approches de résolution du problème de déséquilibre des classes en apprentissage automatique.

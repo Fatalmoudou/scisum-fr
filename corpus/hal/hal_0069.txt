@@ -1,0 +1,1 @@
+Nous étudions des approches innovantes d’apprentissage automatique afin d’optimiser les propriétés spectro-temporelles d’un supercontinuum fibré. Nous démontrons numériquement que l’ajustement d’un motif d’impulsions femtosecondes permet de maximiser le profil temporel à des longueurs d’onde pertinentes en imagerie multiphotonique.

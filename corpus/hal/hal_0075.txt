@@ -1,0 +1,1 @@
+Ce rapport présente les résultats des deux premières années d'une thèse s'intéressant à l'utilisation de l'apprentissage par renforcement (formalisme des Processus de Décision Markoviens) pour la conception de groupes d'agents coopérants (Systèmes Multi-Agents). Ce document a été rédigé à l'occasion de la réunion d'un comité de thèse.

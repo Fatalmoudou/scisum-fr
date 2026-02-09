@@ -1,0 +1,1 @@
+La problématique du stage porte sur l'apprentissage par renforcement appliqué à la robotique et plus particulièrement, l'apprentissage d'une tâche complexe divisée en plusieurs tâches plus simples.

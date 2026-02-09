@@ -1,0 +1,1 @@
+Vers une approche multimodale basée sur l'apprentissage automatique et profond pour la détection d'impact pendant la chute
