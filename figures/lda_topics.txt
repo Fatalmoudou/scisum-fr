@@ -1,0 +1,5 @@
+Thème 1: 0.026*"apprentissage" + 0.016*"données" + 0.015*"automatique" + 0.012*"par" + 0.010*"plus" + 0.009*"sont" + 0.009*"cette" + 0.007*"modèles"
+Thème 2: 0.017*"corpus" + 0.013*"automatique" + 0.010*"traitement" + 0.009*"mémoire" + 0.008*"outil" + 0.008*"langues" + 0.008*"cette" + 0.008*"avons"
+Thème 3: 0.035*"apprentissage" + 0.021*"par" + 0.011*"méthodes" + 0.011*"automatique" + 0.008*"renforcement" + 0.007*"plus" + 0.007*"recherche" + 0.006*"cette"
+Thème 4: 0.027*"apprentissage" + 0.012*"automatique" + 0.009*"modèle" + 0.009*"sont" + 0.007*"plus" + 0.007*"cette" + 0.007*"recherche" + 0.007*"par"
+Thème 5: 0.021*"données" + 0.012*"cette" + 0.012*"sont" + 0.011*"par" + 0.009*"apprentissage" + 0.009*"patients" + 0.008*"plus" + 0.008*"non"
